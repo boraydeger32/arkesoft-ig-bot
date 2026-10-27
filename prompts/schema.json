@@ -1,62 +1,197 @@
 {
   "type": "object",
-  "required": ["date", "post", "reel", "history_note"],
+  "required": [
+    "date",
+    "post",
+    "reel",
+    "history_note"
+  ],
   "properties": {
-    "date": {"type": "string"},
+    "date": {
+      "type": "string"
+    },
     "post": {
       "type": "object",
-      "required": ["enabled", "headline", "subline", "slides", "caption", "hashtags", "source", "source_url"],
+      "required": [
+        "enabled",
+        "headline",
+        "subline",
+        "slides",
+        "caption",
+        "hashtags",
+        "source",
+        "source_url"
+      ],
       "properties": {
-        "enabled": {"type": "boolean"},
-        "headline": {"type": "string"},
-        "subline": {"type": "string"},
-        "slides": {
-          "type": "array",
-          "items": {"type": "object", "required": ["title", "body"],
-                    "properties": {"title": {"type": "string"}, "body": {"type": "string"}}}
+        "enabled": {
+          "type": "boolean"
         },
-        "caption": {"type": "string"},
-        "hashtags": {"type": "array", "items": {"type": "string"}},
-        "source": {"type": "string"},
-        "source_url": {"type": "string"}
-      }
-    },
-    "reel": {
-      "type": "object",
-      "required": ["enabled", "kind", "scenes", "caption", "hashtags", "source", "source_url"],
-      "properties": {
-        "enabled": {"type": "boolean"},
-        "kind": {"type": "string"},
-        "scenes": {
+        "headline": {
+          "type": "string"
+        },
+        "subline": {
+          "type": "string"
+        },
+        "slides": {
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["type", "voice"],
+            "required": [
+              "title",
+              "body"
+            ],
             "properties": {
-              "type": {"type": "string", "enum": ["title", "chaos", "counter", "orb", "dashboard", "headline", "list", "outro"]},
-              "voice": {"type": "string"},
-              "title": {"type": "string"},
-              "cap": {"type": "string"},
-              "sub": {"type": "string"},
-              "note": {"type": "string"},
-              "mood": {"type": "string"},
-              "source": {"type": "string"},
-              "seconds": {"type": "integer"},
-              "lines": {"type": "array", "items": {"type": "string"}},
-              "items": {
-                "type": "array",
-                "items": {"type": "object", "required": ["a"],
-                          "properties": {"a": {"type": "string"}, "b": {"type": "string"}, "c": {"type": "string"}}}
+              "title": {
+                "type": "string"
+              },
+              "body": {
+                "type": "string"
               }
             }
           }
         },
-        "caption": {"type": "string"},
-        "hashtags": {"type": "array", "items": {"type": "string"}},
-        "source": {"type": "string"},
-        "source_url": {"type": "string"}
+        "caption": {
+          "type": "string"
+        },
+        "hashtags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string"
+        }
       }
     },
-    "history_note": {"type": "string"}
+    "reel": {
+      "type": "object",
+      "required": [
+        "enabled",
+        "kind",
+        "scenes",
+        "caption",
+        "hashtags",
+        "source",
+        "source_url"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "kind": {
+          "type": "string"
+        },
+        "scenes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "type",
+              "voice",
+              "tone"
+            ],
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": [
+                  "title",
+                  "chaos",
+                  "counter",
+                  "orb",
+                  "dashboard",
+                  "headline",
+                  "list",
+                  "outro"
+                ]
+              },
+              "voice": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "cap": {
+                "type": "string"
+              },
+              "sub": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              },
+              "mood": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
+              },
+              "seconds": {
+                "type": "integer"
+              },
+              "lines": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "a"
+                  ],
+                  "properties": {
+                    "a": {
+                      "type": "string"
+                    },
+                    "b": {
+                      "type": "string"
+                    },
+                    "c": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "tone": {
+                "type": "string",
+                "enum": [
+                  "urgent",
+                  "calm",
+                  "confident",
+                  "warm",
+                  "playful",
+                  "excited",
+                  "neutral"
+                ]
+              }
+            }
+          }
+        },
+        "caption": {
+          "type": "string"
+        },
+        "hashtags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string"
+        }
+      }
+    },
+    "history_note": {
+      "type": "string"
+    }
   }
 }

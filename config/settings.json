@@ -41,5 +41,9 @@
   "google_voice": "tr-TR-Chirp3-HD-Aoede",
   "edge_voice": "tr-TR-EmelNeural",
   "cloud_rate": "+0%",
-  "google_rate": 1.0
+  "google_rate": 1.0,
+  "_comment_azure": "azure_voice: python3 scripts/voice_test.py ile adayları dinleyip seçin. azure_use_styles: ton→stil eşlemesi (destekleyen seslerde). azure_temperature: sadece HD seslerde (0.3 sabit – 1.0 çeşitli).",
+  "azure_use_styles": true,
+  "azure_temperature": 0.7,
+  "azure_style": ""
 }

@@ -13,7 +13,19 @@ Sonra geçmiş paylaşımları oku ve onlarla çelişme / aynı haberi veya ayn�
 - **Reel (reel):** {{REEL_INSTRUCTION}}
 
 ## Reel nasıl yazılır (önemli)
-Reel, koyu temalı bir motion video olarak otomatik üretilir. Sen sadece **sahne listesi** yazarsın; her sahnenin bir `type`'ı, ekran metinleri ve bir `voice` (seslendirme cümlesi) olur. Toplam süre 25-40 sn: 5-7 sahne. Her sahnenin seslendirmesi 1-2 cümle, en fazla 22 kelime; ekran metinleri kısa (başlık ≤ 8 kelime).
+Reel, koyu temalı bir motion video olarak otomatik üretilir. Sen sadece **sahne listesi** yazarsın; her sahnenin bir `type`'ı, ekran metinleri, bir `voice` (seslendirme cümlesi) ve bir `tone` (seslendirme tonu) olur. Toplam süre 25-35 sn: 5-6 sahne. Her sahnenin seslendirmesi 1-2 cümle, en fazla 18 kelime; ekran metinleri kısa (başlık ≤ 8 kelime).
+
+### Seslendirme metni nasıl yazılır (çok önemli — ses doğal çıksın)
+Seslendirme bir **insan konuşması** gibi olmalı, yazı dili değil. Kurallar:
+- Kısa cümleler. Konuşur gibi: "Siparişler bir yerde. Stoklar Excel'de. Şikâyetler? WhatsApp'ta."
+- Retorik soru + cevap kullan ("Peki bunları ne bağlıyor? ... Tek bir merkez.").
+- İzleyiciye "siz" diye hitap et; "kullanıcılar" gibi üçüncü şahıs yok.
+- Duraklama işaretleri: `...` kısa nefes, `//` dramatik duraklama (sahnede en fazla 1).
+- Vurgu: cümlenin en önemli 1-2 kelimesini `*yıldız*` içine al (ses orada yavaşlar ve yükselir).
+- Rakamları yazıyla yaz ("üç yerde", "yüzde doksan sekiz"); kısaltma yok (CRM → "si ar em" diye değil, "müşteri sistemi" gibi aç).
+- Hiçbir sahnede aynı ton art arda 3 kez gelmesin; video bir duygu yayı izlesin: sorun (urgent) → farkındalık (calm/confident) → çözüm (warm/excited) → çağrı (confident/warm).
+
+`tone` değerleri: `urgent` (sorun, gerilim) · `calm` (sakin, güven) · `confident` (net, kararlı) · `warm` (samimi) · `playful` (hafif mizah) · `excited` (iyi haber) · `neutral`.
 
 Sahne türleri ve alanları:
 | type | ne gösterir | kullanılan alanlar |
@@ -58,9 +70,9 @@ Başka hiçbir açıklama yazma. Çıktın **sadece** aşağıdaki şemaya uyan 
     "enabled": true,
     "kind": "{{REEL_KIND}}",
     "scenes": [
-      {"type": "title", "mood": "danger", "lines": ["İşiniz büyüyor…", "ama _sisteminiz_ *büyümüyor.*"], "voice": "İşiniz büyüyor. Ama sisteminiz büyümüyor."},
-      {"type": "chaos", "items": [{"a": "Siparişler", "b": "e-ticaret panelinde"}, {"a": "Stoklar", "b": "Excel'de"}], "voice": "..."},
-      {"type": "outro", "title": "Strateji, tasarım ve teknoloji. Aynı takımda.", "cap": "Projenizi konuşalım · arkesoft.com", "voice": "Arkesoft. Projenizi konuşalım."}
+      {"type": "title", "mood": "danger", "lines": ["İşiniz büyüyor…", "ama _sisteminiz_ *büyümüyor.*"], "voice": "İşiniz büyüyor... ama sisteminiz *büyümüyor*.", "tone": "urgent"},
+      {"type": "chaos", "items": [{"a": "Siparişler", "b": "e-ticaret panelinde"}, {"a": "Stoklar", "b": "Excel'de"}], "voice": "Siparişler bir yerde. Stoklar Excel'de. Şikâyetler? ... WhatsApp'ta.", "tone": "calm"},
+      {"type": "outro", "title": "Strateji, tasarım ve teknoloji. Aynı takımda.", "cap": "Projenizi konuşalım · arkesoft.com", "voice": "Arkesoft. // Projenizi *konuşalım*.", "tone": "warm"}
     ],
     "caption": "Reel açıklaması...\nKaynak: Site Adı (haber ise)",
     "hashtags": ["#arkesoft", "#yazılım", "#webtasarım", "#..."],
@@ -70,4 +82,4 @@ Başka hiçbir açıklama yazma. Çıktın **sadece** aşağıdaki şemaya uyan 
   "history_note": "Bugün savunduğum ana fikir / paylaştığım haber / odaklandığım hizmet, tek cümle"
 }
 
-Kurallar: Bugün hangi parça kapalıysa `enabled: false` yaz ve diğer alanlarını boş bırak. Her sahnede kullanılmayan alanları yazma. `scenes` 5-7 adet, son sahne daima `outro`.
+Kurallar: Bugün hangi parça kapalıysa `enabled: false` yaz ve diğer alanlarını boş bırak. Her sahnede kullanılmayan alanları yazma. `scenes` 5-6 adet, her sahnede `tone` zorunlu, son sahne daima `outro`.

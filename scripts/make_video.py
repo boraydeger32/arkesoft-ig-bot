@@ -24,7 +24,7 @@ from common import ASSETS, TEMPLATES, day_dir, die, load_settings, log, read_jso
 
 MIN_DUR = {"title": 2.6, "chaos": 5.0, "counter": 5.5, "orb": 4.5, "dashboard": 5.5,
            "headline": 4.0, "list": 5.0, "outro": 3.5}
-VOICE_GAP = 0.9     # seslendirme bittikten sonra sahnenin kalma payı (sn)
+VOICE_GAP = 0.55     # seslendirme bittikten sonra sahnenin kalma payı (sn)
 
 
 def run(cmd):
@@ -43,9 +43,9 @@ def duration_of(path: Path) -> float:
         return 0.0
 
 
-def tts(text: str, path: Path, settings: dict) -> Path | None:
+def tts(text: str, path: Path, settings: dict, tone: str | None = None) -> Path | None:
     """Seslendirme; motor seçimi scripts/tts_engines.py içinde (ElevenLabs / Azure / Google / Edge / Piper / say)."""
-    return tts_engines.synth(text, path, settings)
+    return tts_engines.synth(text, path, settings, tone=tone)
 
 
 def pick_music(d: date) -> Path | None:
@@ -59,7 +59,7 @@ def build_timeline(reel: dict, work: Path, settings: dict):
     scenes, voices, t = [], [], 0.0
     for i, sc in enumerate(reel["scenes"]):
         kind = sc.get("type") if sc.get("type") in MIN_DUR else "title"
-        v = tts(sc.get("voice", ""), work / f"voice_{i:02d}.wav", settings)
+        v = tts(sc.get("voice", ""), work / f"voice_{i:02d}.wav", settings, tone=sc.get("tone"))
         dur = MIN_DUR[kind]
         if v:
             dur = max(dur, duration_of(v) + VOICE_GAP)
@@ -155,12 +155,14 @@ def main():
         vol = settings.get("music_volume", 0.18)
         cmd += ["-i", str(voice), "-stream_loop", "-1", "-i", str(music)]
         fc.append(f"[2:a]volume={vol},afade=t=in:d=1.2,afade=t=out:st={max(total - 1.5, 0):.2f}:d=1.5[m]")
-        fc.append("[m][1:a]sidechaincompress=threshold=0.03:ratio=6:attack=40:release=500[md]")   # konuşurken müzik kısılır
-        fc.append("[md][1:a]amix=inputs=2:duration=first:normalize=0[a]")
+        fc.append("[1:a]highpass=f=80,lowshelf=f=180:g=2,equalizer=f=3000:width_type=o:width=1:g=1.5,acompressor=threshold=-18dB:ratio=3:attack=8:release=120:makeup=4,alimiter=limit=0.95,asplit=2[v1][v2]")
+        fc.append("[m][v2]sidechaincompress=threshold=0.02:ratio=8:attack=30:release=600[md]")   # konuşurken müzik kısılır
+        fc.append("[md][v1]amix=inputs=2:duration=first:normalize=0[a]")
         amap = "[a]"
     elif voice:
         cmd += ["-i", str(voice)]
-        amap = "1:a"
+        fc.append("[1:a]highpass=f=80,lowshelf=f=180:g=2,equalizer=f=3000:width_type=o:width=1:g=1.5,acompressor=threshold=-18dB:ratio=3:attack=8:release=120:makeup=4,alimiter=limit=0.95[a]")
+        amap = "[a]"
     elif music:
         vol = settings.get("music_volume", 0.18) * 2
         cmd += ["-stream_loop", "-1", "-i", str(music)]
