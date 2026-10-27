@@ -22,134 +22,139 @@
         "type": "title",
         "mood": "danger",
         "lines": [
-          "Aynı bilgiyi *üç yere* girmekten",
-          "_yorulmadınız_ mı?"
+          "Müşteriniz sizi *arıyor…",
+          "_ama bulamıyor._"
         ],
-        "voice": "Aynı bilgiyi üç farklı yere girmekten yorulmadınız mı?"
+        "voice": "Müşteriniz sizi *arıyor*... ama bulamıyor. // Rakibiniz çıkıyor karşısına.",
+        "tone": "urgent"
       },
       {
         "type": "chaos",
         "items": [
           {
-            "a": "Siparişler",
-            "b": "e-ticaret panelinde"
+            "a": "Web sitesi",
+            "b": "yıllardır güncellenmedi"
           },
           {
-            "a": "Müşteriler",
-            "b": "Excel'de"
+            "a": "Blog yazıları",
+            "b": "taslak klasöründe"
           },
           {
-            "a": "Faturalar",
-            "b": "muhasebe programında"
+            "a": "Anahtar kelimeler",
+            "b": "kimsenin aklında"
           },
           {
-            "a": "Kargolar",
-            "b": "kargo firmasının sitesinde"
+            "a": "Sosyal medya",
+            "b": "siteden kopuk"
           }
         ],
-        "voice": "Siparişler bir yerde, müşteriler başka yerde, faturalar bir başka yerde. Sistemleriniz birbiriyle konuşmuyor."
+        "voice": "Site eski. Yazılar taslakta. Kelimeler? ... Kimsenin aklında yok.",
+        "tone": "calm"
       },
       {
         "type": "counter",
-        "title": "Kopyala-yapıştırla *giden zaman*",
-        "seconds": 27772,
-        "cap": "Elle veri aktarımı",
-        "sub": "Örnek bir hesap: küçük işler, günlük tekrar",
-        "voice": "Küçük görünen tekrarlar, yıl sonunda günlerce zamana dönüşüyor."
+        "title": "Aranırken kaybolan zaman",
+        "seconds": 18000,
+        "cap": "Her gün yeniden başlıyor",
+        "sub": "Temsili örnek",
+        "voice": "Her gün biraz daha *görünmez* oluyorsunuz. Üstelik fark etmeden.",
+        "tone": "confident"
       },
       {
         "type": "orb",
         "lines": [
-          "İşler *birbirine*",
-          "bağlansın."
+          "Önce *dinliyoruz.*",
+          "_Sonra bulunuyorsunuz._"
         ],
-        "voice": "Biz sistemlerinizi API'lerle birbirine bağlıyoruz. Veri bir kez girilir, her yere kendiliğinden akar."
+        "voice": "Peki çözüm ne? Önce sizi *dinliyoruz*. Sonra stratejiyi kuruyoruz.",
+        "tone": "warm"
       },
       {
         "type": "dashboard",
-        "title": "Tek bakışta *tüm işiniz*",
-        "cap": "Entegre panel · örnek",
+        "title": "Arama görünürlüğü",
+        "cap": "SEO & İçerik paneli",
         "items": [
           {
-            "a": "1.284",
-            "b": "Bugünkü sipariş",
-            "c": "+18%"
+            "a": "Hedef",
+            "b": "Aylık ziyaret",
+            "c": "↑"
           },
           {
-            "a": "326",
-            "b": "Kesilen fatura",
-            "c": "+12%"
+            "a": "Hedef",
+            "b": "İlk sayfa kelime",
+            "c": "↑"
           },
           {
-            "a": "94",
-            "b": "Yoldaki kargo",
-            "c": "+6%"
+            "a": "Örnek",
+            "b": "Gelen teklif",
+            "c": "↑"
           },
           {
-            "a": "0",
-            "b": "Elle girilen veri",
-            "c": "hedef"
+            "a": "Örnek",
+            "b": "Okunan içerik",
+            "c": "↑"
           }
         ],
-        "voice": "Sipariş, fatura ve kargo tek panelde. Tekrar eden işleri sisteme bırakıp asıl işinize odaklanırsınız."
+        "voice": "Düzenli içerik, temiz altyapı, net hedefler. Sonuçları *birlikte* izliyoruz.",
+        "tone": "excited"
       },
       {
         "type": "outro",
         "title": "Strateji, tasarım ve teknoloji. Aynı takımda.",
         "cap": "Projenizi konuşalım · arkesoft.com",
-        "voice": "Önce sizi dinliyoruz, sonra işe koyuluyoruz. Arkesoft. Projenizi konuşalım."
+        "voice": "Arkesoft. // Projenizi *konuşalım*.",
+        "tone": "warm"
       }
     ],
-    "caption": "Sistemleriniz birbiriyle konuşmuyorsa, ekibiniz aradaki köprü oluyor demektir. Yazılım entegrasyonuyla (sistemlerin API'ler üzerinden birbirine veri aktarması) aynı bilgiyi tekrar tekrar girmeden çalışabilirsiniz. Önce sizi dinliyoruz, sonra işe koyuluyoruz.\nProjenizi konuşalım: arkesoft.com",
+    "caption": "Müşteri sizi arıyor ama karşısına rakibiniz çıkıyorsa, sorun genelde ürününüzde değil görünürlüğünüzde. SEO ve içerik işini önce sizi dinleyerek, net hedeflerle kuruyoruz. Panel değerleri temsili örnektir.\nProjenizi konuşalım: arkesoft.com",
     "hashtags": [
       "#arkesoft",
       "#yazılım",
       "#webtasarım",
-      "#entegrasyon",
-      "#api",
-      "#otomasyon",
+      "#seo",
+      "#dijitalstrateji",
       "#kobi",
-      "#dijitaldönüşüm"
+      "#içerikpazarlama"
     ],
     "source": "",
     "source_url": "",
     "video_file": "reel.mp4",
     "cover_file": "cover.jpg",
-    "duration": 47.4,
+    "duration": 44.7,
     "timeline": [
       {
         "type": "title",
         "start": 0.0,
-        "dur": 5.028
+        "dur": 7.362
       },
       {
         "type": "chaos",
-        "start": 5.028,
-        "dur": 9.468
+        "start": 7.362,
+        "dur": 9.906
       },
       {
         "type": "counter",
-        "start": 14.496,
-        "dur": 5.724
+        "start": 17.269,
+        "dur": 6.553
       },
       {
         "type": "orb",
-        "start": 20.22,
-        "dur": 8.964
+        "start": 23.821,
+        "dur": 8.54
       },
       {
         "type": "dashboard",
-        "start": 29.184,
-        "dur": 9.324
+        "start": 32.361,
+        "dur": 6.956
       },
       {
         "type": "outro",
-        "start": 38.508,
-        "dur": 8.868
+        "start": 39.317,
+        "dur": 5.44
       }
     ]
   },
-  "history_note": "Promo reel: Yazılım Entegrasyonu hizmeti, sistemler arası elle veri girişi sorunu ve 'işler birbirine bağlansın' fikri; foto post yok.",
+  "history_note": "Promo reel: SEO & İçerik hizmeti; müşterinin sizi arayıp bulamaması sorunu ve önce dinleyen strateji yaklaşımı; foto post yok.",
   "publish": true,
   "published": {}
 }
