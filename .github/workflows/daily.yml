@@ -14,6 +14,10 @@ on:
         description: "Prova: üret ama Instagram'a GÖNDERME"
         type: boolean
         default: false
+      fresh:
+        description: "Yeniden üret: bugünün içeriğini sil, Claude baştan araştırsın"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -61,7 +65,10 @@ jobs:
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
           AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
           GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
-        run: python3 scripts/daily.py $DAY --stage build
+        run: |
+          ARGS="$DAY --stage build"
+          if [ "${{ github.event.inputs.fresh }}" = "true" ]; then ARGS="$ARGS --fresh"; fi
+          python3 scripts/daily.py $ARGS
 
       - name: Pages için paketle
         uses: actions/upload-pages-artifact@v3

@@ -9,7 +9,8 @@ GÜNLÜK AKIŞ — her sabah GitHub Actions bunu çalıştırır (elle de çalı
   5. publish.py    Instagram'a gönderir
   6. Telegram      her adımda haber verir; hata olursa hatayı yazar
 
-Kullanım: python3 scripts/daily.py [YYYY-MM-DD] [--stage build|publish] [--no-push] [--dry-run]
+Kullanım: python3 scripts/daily.py [YYYY-MM-DD] [--stage build|publish] [--no-push] [--dry-run] [--fresh]
+  --fresh          bugünün içeriğini silip Claude'a baştan araştırtır (test için)
   --stage build    sadece üret + Telegram önizleme + push   (GitHub Actions 1. adım)
   --stage publish  sadece yayınla + Telegram sonuç           (GitHub Actions, Pages yayınından sonra)
   (stage verilmezse ikisini art arda yapar)
@@ -58,6 +59,7 @@ def push(msg: str):
 def main():
     args = sys.argv[1:]
     no_push, dry = "--no-push" in args, "--dry-run" in args
+    fresh = "--fresh" in args
     stage = args[args.index("--stage") + 1] if "--stage" in args else "all"
     dates = [a for a in args if len(a) == 10 and a[4] == "-"]
     settings = load_settings()
@@ -69,7 +71,11 @@ def main():
     label = f"{d.day:02d}.{d.month:02d} {WEEKDAYS_TR[d.weekday()]}"
     tg_text(f"🌅 <b>{label}</b> — plan: {KIND_TR.get(kind, kind)}. Üretim başladı.", silent=True)
 
-    step("İçerik üretimi (Claude)", [sys.executable, "scripts/generate.py", d.isoformat()])
+    if fresh and out_dir.exists():
+        import shutil
+        shutil.rmtree(out_dir, ignore_errors=True)
+        log("--fresh: bugünün içeriği silindi, baştan üretiliyor.")
+    step("İçerik üretimi (Claude)", [sys.executable, "scripts/generate.py", d.isoformat()] + (["--force"] if fresh else []))
     content = read_json(out_dir / "content.json") or {}
 
     if content.get("post", {}).get("enabled"):
