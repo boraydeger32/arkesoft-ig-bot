@@ -12,7 +12,7 @@ ENV="$ROOT/.env"
 touch "$ENV"
 
 say_() { printf "\n\033[1;36m%s\033[0m\n" "$*"; }
-ask()  { printf "\033[1;33m%s\033[0m" "$1"; read -r REPLY; echo "$REPLY"; }
+ask()  { printf "\033[1;33m%s\033[0m" "$1" >&2; read -r REPLY; echo "$REPLY"; }
 setenv() { # setenv KEY VALUE → .env'e yazar (varsa değiştirir)
   grep -v "^$1=" "$ENV" > "$ENV.tmp" 2>/dev/null || true; mv "$ENV.tmp" "$ENV"; echo "$1=$2" >> "$ENV"; }
 getenv() { grep "^$1=" "$ENV" 2>/dev/null | head -1 | cut -d= -f2-; }
