@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-27",
+  "post": {
+    "enabled": false,
+    "headline": "",
+    "subline": "",
+    "slides": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "reel": {
+    "enabled": true,
+    "kind": "promo",
+    "scenes": [
+      {
+        "type": "title",
+        "mood": "danger",
+        "lines": [
+          "Aynı bilgiyi *üç yere* girmekten",
+          "_yorulmadınız_ mı?"
+        ],
+        "voice": "Aynı bilgiyi üç farklı yere girmekten yorulmadınız mı?"
+      },
+      {
+        "type": "chaos",
+        "items": [
+          {
+            "a": "Siparişler",
+            "b": "e-ticaret panelinde"
+          },
+          {
+            "a": "Müşteriler",
+            "b": "Excel'de"
+          },
+          {
+            "a": "Faturalar",
+            "b": "muhasebe programında"
+          },
+          {
+            "a": "Kargolar",
+            "b": "kargo firmasının sitesinde"
+          }
+        ],
+        "voice": "Siparişler bir yerde, müşteriler başka yerde, faturalar bir başka yerde. Sistemleriniz birbiriyle konuşmuyor."
+      },
+      {
+        "type": "counter",
+        "title": "Kopyala-yapıştırla *giden zaman*",
+        "seconds": 27772,
+        "cap": "Elle veri aktarımı",
+        "sub": "Örnek bir hesap: küçük işler, günlük tekrar",
+        "voice": "Küçük görünen tekrarlar, yıl sonunda günlerce zamana dönüşüyor."
+      },
+      {
+        "type": "orb",
+        "lines": [
+          "İşler *birbirine*",
+          "bağlansın."
+        ],
+        "voice": "Biz sistemlerinizi API'lerle birbirine bağlıyoruz. Veri bir kez girilir, her yere kendiliğinden akar."
+      },
+      {
+        "type": "dashboard",
+        "title": "Tek bakışta *tüm işiniz*",
+        "cap": "Entegre panel · örnek",
+        "items": [
+          {
+            "a": "1.284",
+            "b": "Bugünkü sipariş",
+            "c": "+18%"
+          },
+          {
+            "a": "326",
+            "b": "Kesilen fatura",
+            "c": "+12%"
+          },
+          {
+            "a": "94",
+            "b": "Yoldaki kargo",
+            "c": "+6%"
+          },
+          {
+            "a": "0",
+            "b": "Elle girilen veri",
+            "c": "hedef"
+          }
+        ],
+        "voice": "Sipariş, fatura ve kargo tek panelde. Tekrar eden işleri sisteme bırakıp asıl işinize odaklanırsınız."
+      },
+      {
+        "type": "outro",
+        "title": "Strateji, tasarım ve teknoloji. Aynı takımda.",
+        "cap": "Projenizi konuşalım · arkesoft.com",
+        "voice": "Önce sizi dinliyoruz, sonra işe koyuluyoruz. Arkesoft. Projenizi konuşalım."
+      }
+    ],
+    "caption": "Sistemleriniz birbiriyle konuşmuyorsa, ekibiniz aradaki köprü oluyor demektir. Yazılım entegrasyonuyla (sistemlerin API'ler üzerinden birbirine veri aktarması) aynı bilgiyi tekrar tekrar girmeden çalışabilirsiniz. Önce sizi dinliyoruz, sonra işe koyuluyoruz.\nProjenizi konuşalım: arkesoft.com",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#entegrasyon",
+      "#api",
+      "#otomasyon",
+      "#kobi",
+      "#dijitaldönüşüm"
+    ],
+    "source": "",
+    "source_url": "",
+    "video_file": "reel.mp4",
+    "cover_file": "cover.jpg",
+    "duration": 47.4,
+    "timeline": [
+      {
+        "type": "title",
+        "start": 0.0,
+        "dur": 5.028
+      },
+      {
+        "type": "chaos",
+        "start": 5.028,
+        "dur": 9.468
+      },
+      {
+        "type": "counter",
+        "start": 14.496,
+        "dur": 5.724
+      },
+      {
+        "type": "orb",
+        "start": 20.22,
+        "dur": 8.964
+      },
+      {
+        "type": "dashboard",
+        "start": 29.184,
+        "dur": 9.324
+      },
+      {
+        "type": "outro",
+        "start": 38.508,
+        "dur": 8.868
+      }
+    ]
+  },
+  "history_note": "Promo reel: Yazılım Entegrasyonu hizmeti, sistemler arası elle veri girişi sorunu ve 'işler birbirine bağlansın' fikri; foto post yok.",
+  "publish": true,
+  "published": {}
+}
