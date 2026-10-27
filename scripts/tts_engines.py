@@ -179,7 +179,7 @@ def synth(text: str, out: Path, s: dict) -> Path | None:
             path = ENGINES[engine](text, out, s)
             _chosen = engine   # ilk başarılı motor, o günkü tüm sahnelerde kullanılır
             return path
-        except SystemExit as e:
+        except (SystemExit, Exception) as e:
             if len(order) == 1:
                 raise
             log(f"{engine} başarısız, sıradaki motor deneniyor...")
