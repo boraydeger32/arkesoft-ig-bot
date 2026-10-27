@@ -1,0 +1,9 @@
+.env
+logs/
+out/**/_work/
+out/**/claude_raw.txt
+out/**/reel_preview.mp4
+assets/voices/
+.venv/
+__pycache__/
+.DS_Store

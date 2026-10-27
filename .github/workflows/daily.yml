@@ -1,0 +1,106 @@
+name: Günlük Instagram paylaşımı
+
+on:
+  schedule:
+    # 07:40 Türkiye saati (UTC+3 → 04:40 UTC). Üretim ~10 dk sürer; paylaşım 08:00 civarı çıkar.
+    - cron: "40 4 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Gün (YYYY-MM-DD). Boş = bugün"
+        required: false
+        default: ""
+      dry_run:
+        description: "Prova: üret ama Instagram'a GÖNDERME"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+env:
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+  DAY: ${{ github.event.inputs.date }}
+
+jobs:
+  build:
+    name: Üret ve yükle
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Araçları kur
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          pip install -q -r requirements.txt
+          playwright install --with-deps chromium > /dev/null
+          npm install -g @anthropic-ai/claude-code > /dev/null
+          python3 scripts/get_voice.py > /dev/null || true   # Piper yedek sesi (cloud ses yoksa)
+
+      - name: İçerik üret (Claude + görsel/video) ve GitHub'a kaydet
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          ELEVEN_API_KEY: ${{ secrets.ELEVEN_API_KEY }}
+          ELEVEN_VOICE_ID: ${{ secrets.ELEVEN_VOICE_ID }}
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
+          GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+        run: python3 scripts/daily.py $DAY --stage build
+
+      - name: Pages için paketle
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    name: Dosyaları yayına aç (GitHub Pages)
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  publish:
+    name: Instagram'a gönder
+    needs: deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: git pull --rebase
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests
+      - name: Yayınla ve Telegram'a bildir
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          PUBLIC_BASE_URL: ${{ needs.deploy.outputs.page_url }}
+        run: |
+          ARGS="$DAY --stage publish"
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          python3 scripts/daily.py $ARGS

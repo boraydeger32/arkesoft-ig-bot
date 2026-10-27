@@ -1,0 +1,179 @@
+{
+  "_not": "ÖRNEK — yayınlanmaz. Gerçek günler out/YYYY-MM-DD/ klasörlerine gelir.",
+  "date": "2026-10-27",
+  "publish": false,
+  "published": {},
+  "post": {
+    "enabled": true,
+    "headline": "Tarayıcılar artık yapay zekâyı *yerleşik* getiriyor",
+    "subline": "Chrome ve Safari, web sayfalarında doğrudan çalışan küçük dil modellerini varsayılan hale getirdi.",
+    "slides": [
+      {
+        "title": "Ne oldu?",
+        "body": "Yeni sürümlerle birlikte sayfa içi özetleme, form doldurma ve çeviri için sunucuya gitmeyen, cihazda çalışan modeller geldi."
+      },
+      {
+        "title": "Neden önemli?",
+        "body": "Kullanıcı verisi tarayıcıdan çıkmıyor. Hem hız hem gizlilik tarafında web uygulamaları için yeni bir alan açılıyor."
+      },
+      {
+        "title": "Bize ne söylüyor?",
+        "body": "Küçük işletme siteleri bile akıllı yardımcılar ekleyebilecek. Önce ihtiyaç, sonra teknoloji."
+      }
+    ],
+    "caption": "Tarayıcılar artık sayfa içinde çalışan küçük yapay zekâ modelleri getiriyor. Veri cihazdan çıkmıyor, yanıt anında geliyor.\nKaynak: Örnek Teknoloji Sitesi",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#yapayzeka",
+      "#webgeliştirme"
+    ],
+    "source": "Örnek Teknoloji Sitesi",
+    "source_url": "https://example.com/haber",
+    "files": [
+      "post_1.png",
+      "post_2.png",
+      "post_3.png"
+    ]
+  },
+  "reel": {
+    "enabled": true,
+    "kind": "promo",
+    "scenes": [
+      {
+        "type": "title",
+        "mood": "danger",
+        "lines": [
+          "İşiniz büyüyor…",
+          "ama _sisteminiz_ *büyümüyor.*"
+        ],
+        "voice": "İşiniz büyüyor. Ama sisteminiz büyümüyor."
+      },
+      {
+        "type": "chaos",
+        "items": [
+          {
+            "a": "Siparişler",
+            "b": "e-ticaret panelinde"
+          },
+          {
+            "a": "Stoklar",
+            "b": "Excel'de"
+          },
+          {
+            "a": "Şikâyetler",
+            "b": "WhatsApp gruplarında"
+          },
+          {
+            "a": "Kargo takibi",
+            "b": "bambaşka bir ekranda"
+          }
+        ],
+        "voice": "Siparişler bir yerde, stoklar Excel'de, şikâyetler WhatsApp'ta, kargo takibi bambaşka bir ekranda."
+      },
+      {
+        "type": "counter",
+        "title": "Ekibinizin her gün *boşa harcadığı* saatler.",
+        "seconds": 27772,
+        "voice": "Aynı bilgiyi üç kez girmek, kopyalayıp yapıştırmak, ekranlar arasında koşmak. Her gün saatler gidiyor."
+      },
+      {
+        "type": "orb",
+        "lines": [
+          "_Yamalı çözümler yerine_",
+          "tek bir *dijital merkez.*"
+        ],
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "voice": "Peki bu dağınık sistemleri birbirine bağlayan tek şey ne? Yamalı çözümler değil. Tek bir dijital merkez."
+      },
+      {
+        "type": "dashboard",
+        "title": "Siparişten teslimata, *tek ekranda.*",
+        "cap": "Operasyon",
+        "items": [
+          {
+            "a": "1.284",
+            "b": "Bugünkü sipariş",
+            "c": "+18,4%"
+          },
+          {
+            "a": "%99,8",
+            "b": "Stok doğruluğu",
+            "c": "+12 puan"
+          },
+          {
+            "a": "2 dk",
+            "b": "Ortalama yanıt",
+            "c": "-41 dk"
+          },
+          {
+            "a": "%98,4",
+            "b": "Zamanında teslimat",
+            "c": "+9,2%"
+          }
+        ],
+        "voice": "Siparişten teslimata her şey tek ekranda. Doğru stok, hızlı yanıt, zamanında teslimat."
+      },
+      {
+        "type": "outro",
+        "title": "Strateji, tasarım ve teknoloji. Aynı takımda.",
+        "cap": "Projenizi konuşalım · arkesoft.com",
+        "voice": "Arkesoft. Projenizi konuşalım."
+      }
+    ],
+    "caption": "Aynı bilgiyi üç ayrı yere yazmak zaman değil, güven kaybettirir. Önce akışı birlikte netleştiriyor, sonra sistemleri birbirine bağlıyoruz. Projenizi konuşalım: arkesoft.com",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#otomasyon",
+      "#crm",
+      "#kobi"
+    ],
+    "source": "",
+    "source_url": "",
+    "video_file": "reel.mp4",
+    "cover_file": "cover.jpg",
+    "duration": 35.3,
+    "timeline": [
+      {
+        "type": "title",
+        "start": 0.0,
+        "dur": 3.414
+      },
+      {
+        "type": "chaos",
+        "start": 3.414,
+        "dur": 6.984
+      },
+      {
+        "type": "counter",
+        "start": 10.398,
+        "dur": 7.361
+      },
+      {
+        "type": "orb",
+        "start": 17.759,
+        "dur": 7.356
+      },
+      {
+        "type": "dashboard",
+        "start": 25.115,
+        "dur": 6.653
+      },
+      {
+        "type": "outro",
+        "start": 31.768,
+        "dur": 3.5
+      }
+    ]
+  },
+  "history_note": "Tarayıcı içi yapay zekâ modellerini olumlu değerlendirdim; promo reel entegrasyon/CRM hizmetine odaklandı."
+}
