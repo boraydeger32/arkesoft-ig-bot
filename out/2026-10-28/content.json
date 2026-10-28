@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-28",
+  "post": {
+    "enabled": true,
+    "headline": "Copilot artık güvenli komutları *kendisi* onaylıyor",
+    "subline": "GitHub, yardımlı izinleri (assisted permissions) genel kullanıma açtı.",
+    "slides": [
+      {
+        "title": "Copilot artık güvenli komutları *kendisi* onaylıyor",
+        "body": "GitHub, yardımlı izinleri (assisted permissions) 26 Ekim 2026'da genel kullanıma açtı. Copilot CLI, Copilot uygulaması ve Visual Studio Code'da çalışıyor."
+      },
+      {
+        "title": "Ne oldu?",
+        "body": "Copilot bir komut çalıştırmak, dosya yoluna erişmek veya bir adres açmak istediğinde bir dil modeli isteği değerlendiriyor. Açıkça güvenli görülenler otomatik ilerliyor, diğerleri sizin onayınızı bekliyor."
+      },
+      {
+        "title": "Neden önemli?",
+        "body": "Yapay zekâ ajanlarıyla çalışırken en büyük sürtünme, sürekli 'izin ver' demek. Her şeye izin vermek ise riskli. Bu mod ikisinin arasında bir yol açıyor. Yöneticiler kurumsal ayarlarla modu sınırlayabiliyor."
+      }
+    ],
+    "caption": "Yapay zekâ ajanlarıyla çalışmanın en yorucu yanı sürekli onay vermek. GitHub Copilot'un yardımlı izinleri bunu azaltıyor: güvenli görülen istekler otomatik ilerliyor, diğerleri onayınıza kalıyor. Hız ile kontrol arasındaki denge, her yazılım ekibinin konuşması gereken bir konu.\nKaynak: GitHub Changelog",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#githubcopilot",
+      "#yapayzeka",
+      "#yazılımgeliştirme",
+      "#teknoloji",
+      "#geliştirici"
+    ],
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available/",
+    "files": [
+      "post_1.png",
+      "post_2.png",
+      "post_3.png"
+    ]
+  },
+  "reel": {
+    "enabled": false,
+    "kind": "none",
+    "scenes": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "history_note": "GitHub Copilot'un yardımlı izinlerinin (assisted permissions) 26 Ekim 2026'da genel kullanıma açılması haberini paylaştım; reel yok.",
+  "publish": true,
+  "published": {}
+}

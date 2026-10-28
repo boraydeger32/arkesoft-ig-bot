@@ -6,5 +6,13 @@
     "reel_kind": "promo",
     "reel_hook": "Müşteriniz sizi *arıyor… / _ama bulamıyor._",
     "note": "Promo reel: SEO & İçerik hizmeti; müşterinin sizi arayıp bulamaması sorunu ve önce dinleyen strateji yaklaşımı; foto post yok."
+  },
+  {
+    "date": "2026-10-28",
+    "post_headline": "Copilot artık güvenli komutları *kendisi* onaylıyor",
+    "post_source": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available/",
+    "reel_kind": "none",
+    "reel_hook": "",
+    "note": "GitHub Copilot'un yardımlı izinlerinin (assisted permissions) 26 Ekim 2026'da genel kullanıma açılması haberini paylaştım; reel yok."
   }
 ]
