@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-29",
+  "post": {
+    "enabled": false,
+    "headline": "",
+    "subline": "",
+    "slides": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "reel": {
+    "enabled": true,
+    "kind": "news",
+    "scenes": [
+      {
+        "type": "title",
+        "mood": "calm",
+        "lines": [
+          "Yazılım artık tek bir *araç* değil.",
+          "_Tek bir akış._"
+        ],
+        "voice": "Yazılım artık tek bir araç değil... bir *akış*.",
+        "tone": "confident"
+      },
+      {
+        "type": "headline",
+        "cap": "GÜNDEM",
+        "title": "GitHub Universe 2026: Yazılım teslimatı tek çatıda",
+        "lines": [
+          "GitHub, 28-29 Ekim'deki konferansında kendini uçtan uca bir yazılım teslimat sistemi olarak konumlandırdı."
+        ],
+        "source": "GitHub Blog",
+        "voice": "GitHub, Universe konferansında yeni bir vizyon açıkladı. Hedef: fikirden yayına *tek bir sistem*.",
+        "tone": "excited"
+      },
+      {
+        "type": "list",
+        "title": "Kısaca ne oldu?",
+        "items": [
+          {
+            "a": "Ne oldu",
+            "b": "Yeni Copilot uygulaması duyuruldu"
+          },
+          {
+            "a": "Neden önemli",
+            "b": "Konu açılıştan birleştirmeye tek yüzeyde"
+          },
+          {
+            "a": "KOBİ'ye etkisi",
+            "b": "Daha az araç, daha az kopukluk"
+          }
+        ],
+        "voice": "Yeni bir Copilot uygulaması var. Konu açmaktan koda eklemeye, hepsi *tek ekranda*. Araçlar arası kopukluk azalıyor.",
+        "tone": "calm"
+      },
+      {
+        "type": "orb",
+        "lines": [
+          "Araçlar değil,",
+          "*bağlantılar* kazandırır."
+        ],
+        "voice": "Bizim yorumumuz net. Kazandıran araç sayısı değil... araçların *birbirine bağlanması*.",
+        "tone": "confident"
+      },
+      {
+        "type": "outro",
+        "title": "Strateji, tasarım ve teknoloji. Aynı takımda.",
+        "cap": "Projenizi konuşalım · arkesoft.com",
+        "voice": "Arkesoft. // İşleriniz birbirine *bağlansın*.",
+        "tone": "warm"
+      }
+    ],
+    "caption": "GitHub Universe 2026 bugün San Francisco'da sürüyor. GitHub, kendini uçtan uca bir yazılım teslimat sistemi olarak anlatıyor ve fikirden birleştirmeye tek yüzeyde çalışan yeni bir Copilot uygulaması öne çıkıyor. Bizim okumamız: iyi çalışan işler, birbirine bağlanan araçlarla başlar.\nProjenizi konuşalım: arkesoft.com\nKaynak: The GitHub Blog",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#github",
+      "#githubuniverse",
+      "#yapayzeka",
+      "#geliştirici",
+      "#teknoloji"
+    ],
+    "source": "The GitHub Blog",
+    "source_url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+    "video_file": "reel.mp4",
+    "cover_file": "cover.jpg",
+    "duration": 37.6,
+    "timeline": [
+      {
+        "type": "title",
+        "start": 0.0,
+        "dur": 4.554
+      },
+      {
+        "type": "headline",
+        "start": 4.554,
+        "dur": 7.717
+      },
+      {
+        "type": "list",
+        "start": 12.271,
+        "dur": 11.149
+      },
+      {
+        "type": "orb",
+        "start": 23.421,
+        "dur": 8.203
+      },
+      {
+        "type": "outro",
+        "start": 31.624,
+        "dur": 6.032
+      }
+    ]
+  },
+  "history_note": "GitHub Universe 2026'da (28-29 Ekim) GitHub'ın uçtan uca yazılım teslimat vizyonunu ve yeni Copilot uygulamasını reel olarak paylaştım; foto post yok.",
+  "publish": true,
+  "published": {}
+}
