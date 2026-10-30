@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-30",
+  "post": {
+    "enabled": true,
+    "headline": "Mistral Large 4'ün ağırlıkları *açıldı*",
+    "subline": "Bir trilyon parametreli model artık Hugging Face'ten indirilebiliyor.",
+    "slides": [
+      {
+        "title": "Ne oldu?",
+        "body": "Mistral, Large 4 modelinin ağırlıklarını (modelin 'öğrenilmiş hali') yayımladı. Model bir trilyon parametreli ve çok kipli (metin ve görsel). Ağırlıklar Hugging Face'te, API ve Microsoft Foundry gibi yollarla da kullanılabiliyor."
+      },
+      {
+        "title": "Neden önemli?",
+        "body": "Mistral, modeli açık ağırlıklı modeller arasında kodlama için en iyisi olarak tanıtıyor; bu şirketin kendi iddiası. Lisans değiştirilmiş MIT: model sunan servis işletmek için ayrı ticari lisans gerekiyor."
+      },
+      {
+        "title": "Bize ne söylüyor?",
+        "body": "Güçlü modellere tek bir sağlayıcıya bağlanmadan erişmek kolaylaşıyor. Yapay zekâyı ürününüze eklemeyi düşünüyorsanız model seçimini sisteminizden ayrı tutmak iyi bir fikir. Biz de entegrasyonları bu şekilde kuruyoruz."
+      }
+    ],
+    "caption": "Mistral, Large 4 modelinin ağırlıklarını yayımladı. Hugging Face'ten indirilebiliyor, API üzerinden de kullanılabiliyor. Başarı rakamları şirketin kendi açıklaması; kendi işinizde mutlaka test edin.\nKÖBİ'ler ve yazılım ekipleri için mesaj net: model seçimi esnek kalmalı, sisteminiz tek bir sağlayıcıya kilitlenmemeli.\nKaynak: Mistral AI",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#yapayzeka",
+      "#mistral",
+      "#açıkkaynak",
+      "#teknoloji",
+      "#yazılımgeliştirme"
+    ],
+    "source": "Mistral AI",
+    "source_url": "https://mistral.ai/news/mistral-large-4-oss/",
+    "files": [
+      "post_1.png",
+      "post_2.png",
+      "post_3.png"
+    ]
+  },
+  "reel": {
+    "enabled": false,
+    "kind": "none",
+    "scenes": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "history_note": "Mistral'in Large 4 modelinin ağırlıklarını açtığı haberini paylaştım (Hugging Face, değiştirilmiş MIT lisansı, sağlayıcıya kilitlenmeme mesajı); reel yok.",
+  "publish": true,
+  "published": {}
+}

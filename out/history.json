@@ -22,5 +22,13 @@
     "reel_kind": "news",
     "reel_hook": "Yazılım artık tek bir *araç* değil. / _Tek bir akış._",
     "note": "GitHub Universe 2026'da (28-29 Ekim) GitHub'ın uçtan uca yazılım teslimat vizyonunu ve yeni Copilot uygulamasını reel olarak paylaştım; foto post yok."
+  },
+  {
+    "date": "2026-10-30",
+    "post_headline": "Mistral Large 4'ün ağırlıkları *açıldı*",
+    "post_source": "https://mistral.ai/news/mistral-large-4-oss/",
+    "reel_kind": "none",
+    "reel_hook": "",
+    "note": "Mistral'in Large 4 modelinin ağırlıklarını açtığı haberini paylaştım (Hugging Face, değiştirilmiş MIT lisansı, sağlayıcıya kilitlenmeme mesajı); reel yok."
   }
 ]
