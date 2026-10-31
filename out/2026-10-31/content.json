@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-31",
+  "post": {
+    "enabled": false,
+    "headline": "",
+    "subline": "",
+    "slides": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "reel": {
+    "enabled": true,
+    "kind": "trend",
+    "scenes": [
+      {
+        "type": "title",
+        "mood": "danger",
+        "lines": [
+          "Web sitesi projesi:",
+          "_beklenti_ vs *gerçek*"
+        ],
+        "voice": "Web sitesi yaptırıyorsunuz. Beklenti... ve *gerçek*.",
+        "tone": "playful"
+      },
+      {
+        "type": "list",
+        "title": "Beklenti vs gerçek",
+        "items": [
+          {
+            "a": "Beklenti: ~iki haftada bitti~",
+            "b": "Gerçek: içerik üç ay gelmedi"
+          },
+          {
+            "a": "Beklenti: tek bir toplantı",
+            "b": "Gerçek: kırk beş mesaj"
+          },
+          {
+            "a": "Beklenti: logo biraz büyük olsun",
+            "b": "Gerçek: yeniden tasarım"
+          }
+        ],
+        "voice": "Beklenti: iki haftada biter. Gerçek: içerik üç ay gelmez. Logo? Biraz *büyük* olsun.",
+        "tone": "urgent"
+      },
+      {
+        "type": "chaos",
+        "items": [
+          {
+            "a": "Fikirler",
+            "b": "WhatsApp'ta"
+          },
+          {
+            "a": "Dosyalar",
+            "b": "e-postada"
+          },
+          {
+            "a": "Geri bildirim",
+            "b": "telefon notlarında"
+          }
+        ],
+        "voice": "Sorun sizde değil. Fikirler bir yerde... dosyalar başka yerde. Geri bildirim? Notlarda.",
+        "tone": "calm"
+      },
+      {
+        "type": "orb",
+        "lines": [
+          "Önce *dinle*,",
+          "sonra _planla_."
+        ],
+        "voice": "Peki çözüm ne? Önce *dinlemek*. Sonra net bir plan. Herkes aynı yerde.",
+        "tone": "warm"
+      },
+      {
+        "type": "outro",
+        "title": "Strateji, tasarım ve teknoloji. Aynı takımda.",
+        "cap": "Projenizi konuşalım · arkesoft.com",
+        "voice": "Arkesoft. // Projenizi *konuşalım*.",
+        "tone": "confident"
+      }
+    ],
+    "caption": "Son günlerde çok konuşulan \"beklenti vs gerçek\" formatını web projelerine uyarladık. Çoğu gecikme tembellikten değil, dağınık iletişimden çıkıyor. Biz önce dinliyor, sonra tek bir planda buluşturuyoruz. Projenizi konuşalım: arkesoft.com",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#beklentivsgerçek",
+      "#dijitalajans",
+      "#kobi",
+      "#webyazılım",
+      "#proje"
+    ],
+    "source": "",
+    "source_url": "",
+    "video_file": "reel.mp4",
+    "cover_file": "cover.jpg",
+    "duration": 43.3,
+    "timeline": [
+      {
+        "type": "title",
+        "start": 0.0,
+        "dur": 6.191
+      },
+      {
+        "type": "list",
+        "start": 6.191,
+        "dur": 10.185
+      },
+      {
+        "type": "chaos",
+        "start": 16.376,
+        "dur": 11.58
+      },
+      {
+        "type": "orb",
+        "start": 27.956,
+        "dur": 10.088
+      },
+      {
+        "type": "outro",
+        "start": 38.043,
+        "dur": 5.312
+      }
+    ]
+  },
+  "history_note": "Trend reel: 'beklenti vs gerçek' formatını web sitesi projelerinin dağınık iletişim sorununa uyarladım; önce dinleyen, tek planlı yaklaşımı vurguladım; foto post yok.",
+  "publish": true,
+  "published": {}
+}
