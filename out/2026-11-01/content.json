@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-01",
+  "post": {
+    "enabled": true,
+    "headline": "Markdown yazın, *otomasyon* çalışsın",
+    "subline": "GitHub Agentic Workflows genel kullanıma açıldı: iş akışlarını düz Türkçe/İngilizce metinle tarif ediyorsunuz.",
+    "slides": [
+      {
+        "title": "Ne oldu?",
+        "body": "GitHub, Agentic Workflows'u 28 Ekim 2026'da genel kullanıma açtı. Açık kaynaklı proje, GitHub Actions içinde kodlama ajanlarının çalışmasını sağlıyor. Konular: issue sınıflandırma, CI hata analizi, dokümantasyon güncelleme, test yazma."
+      },
+      {
+        "title": "Neden önemli?",
+        "body": "İş akışları doğal dilde Markdown dosyası olarak yazılıyor ve standart Actions YAML'ına derleniyor. Ajanlar varsayılan olarak salt okunur izinle, korumalı bir kapsayıcıda çalışıyor. Önerilen değişiklikler uygulanmadan önce tehdit taraması da yapılıyor."
+      },
+      {
+        "title": "Bize ne söylüyor?",
+        "body": "Tekrarlayan yazılım işleri artık kod yerine tarifle otomatikleşiyor. Küçük ekipler için bu, daha az elle triyaj ve daha çok üretim zamanı demek. Biz de aynı fikirdeyiz: işler birbirine bağlansın, ama kontrol sizde kalsın."
+      }
+    ],
+    "caption": "GitHub, Agentic Workflows'u genel kullanıma açtı. Artık issue sınıflandırma, CI hata analizi ya da dokümantasyon güncelleme gibi işleri Markdown ile tarif edip Actions içinde bir kodlama ajanına yaptırabiliyorsunuz. Ajanlar varsayılan olarak salt okunur izinle ve korumalı ortamda çalışıyor. Küçük yazılım ekipleri için sıkıcı işleri devretmenin güvenli bir yolu.\nKaynak: GitHub Changelog",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#github",
+      "#otomasyon",
+      "#yapayzeka",
+      "#geliştirici",
+      "#teknoloji"
+    ],
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available",
+    "files": [
+      "post_1.png",
+      "post_2.png",
+      "post_3.png"
+    ]
+  },
+  "reel": {
+    "enabled": false,
+    "kind": "none",
+    "scenes": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "history_note": "GitHub'ın 28 Ekim 2026'da Agentic Workflows'u genel kullanıma açtığı haberini (Markdown ile yazılan, varsayılan salt okunur ve korumalı ajan iş akışları) foto post olarak paylaştım; reel yok.",
+  "publish": true,
+  "published": {}
+}

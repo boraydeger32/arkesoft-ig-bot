@@ -38,5 +38,13 @@
     "reel_kind": "trend",
     "reel_hook": "Web sitesi projesi: / _beklenti_ vs *gerçek*",
     "note": "Trend reel: 'beklenti vs gerçek' formatını web sitesi projelerinin dağınık iletişim sorununa uyarladım; önce dinleyen, tek planlı yaklaşımı vurguladım; foto post yok."
+  },
+  {
+    "date": "2026-11-01",
+    "post_headline": "Markdown yazın, *otomasyon* çalışsın",
+    "post_source": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available",
+    "reel_kind": "none",
+    "reel_hook": "",
+    "note": "GitHub'ın 28 Ekim 2026'da Agentic Workflows'u genel kullanıma açtığı haberini (Markdown ile yazılan, varsayılan salt okunur ve korumalı ajan iş akışları) foto post olarak paylaştım; reel yok."
   }
 ]
