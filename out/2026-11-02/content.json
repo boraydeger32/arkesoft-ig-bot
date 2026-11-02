@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-02",
+  "post": {
+    "enabled": true,
+    "headline": "Ortam değişkenleri *sızdı*: Trigger.dev olayı",
+    "subline": "Trigger.dev, bazı kurumların ortam değişkenlerine yetkisiz erişim olduğunu duyurdu.",
+    "slides": [
+      {
+        "title": "Ne oldu?",
+        "body": "Trigger.dev, 1 Kasım 2026 tarihli duyurusunda bir saldırganın bazı kurumlara ait ortam değişkenlerine yetkisiz eriştiğini açıkladı. Kullanılan açık kapatıldı. Hesap sahiplerine e-posta ile adımlar gönderildi."
+      },
+      {
+        "title": "Neden önemli?",
+        "body": "Ortam değişkenleri (environment variables) çoğu zaman API anahtarlarını ve gizli bilgileri tutar. Duyuruda hangi değişkenlerin etkilendiği ve kaç kurumun kapsandığı belirtilmiyor. Bu yüzden temkinli olmak gerekir."
+      },
+      {
+        "title": "Bize ne söylüyor?",
+        "body": "Gizli anahtarlar düzenli döndürülmeli ve her hizmete yalnızca gereken yetki verilmeli. KOBİ'ler için de aynısı geçerli: kullandığınız servislerin durum duyurularını takip edin, e-postalarına bakın."
+      }
+    ],
+    "caption": "Trigger.dev, 1 Kasım 2026'da bazı kurumların ortam değişkenlerine yetkisiz erişim yapıldığını duyurdu. Açık kapatıldı, etkilenen hesap sahiplerine e-posta gönderildi. Ayrıntılar henüz sınırlı. Bizim çıkardığımız ders: gizli anahtarları düzenli yenileyin ve yetkileri dar tutun.\nKaynak: Trigger.dev Blog",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#sibergüvenlik",
+      "#geliştirici",
+      "#apı",
+      "#güvenlik",
+      "#dijitaldönüşüm"
+    ],
+    "source": "Trigger.dev Blog",
+    "source_url": "https://trigger.dev/blog/security-incident-nov-2026",
+    "files": [
+      "post_1.png",
+      "post_2.png",
+      "post_3.png"
+    ]
+  },
+  "reel": {
+    "enabled": false,
+    "kind": "none",
+    "scenes": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "history_note": "Trigger.dev'in 1 Kasım 2026'da duyurduğu, bazı kurumların ortam değişkenlerine yetkisiz erişim olayını foto post olarak paylaştım; gizli anahtar hijyeni mesajı verdim; reel yok.",
+  "publish": true,
+  "published": {}
+}

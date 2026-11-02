@@ -46,5 +46,13 @@
     "reel_kind": "none",
     "reel_hook": "",
     "note": "GitHub'ın 28 Ekim 2026'da Agentic Workflows'u genel kullanıma açtığı haberini (Markdown ile yazılan, varsayılan salt okunur ve korumalı ajan iş akışları) foto post olarak paylaştım; reel yok."
+  },
+  {
+    "date": "2026-11-02",
+    "post_headline": "Ortam değişkenleri *sızdı*: Trigger.dev olayı",
+    "post_source": "https://trigger.dev/blog/security-incident-nov-2026",
+    "reel_kind": "none",
+    "reel_hook": "",
+    "note": "Trigger.dev'in 1 Kasım 2026'da duyurduğu, bazı kurumların ortam değişkenlerine yetkisiz erişim olayını foto post olarak paylaştım; gizli anahtar hijyeni mesajı verdim; reel yok."
   }
 ]
