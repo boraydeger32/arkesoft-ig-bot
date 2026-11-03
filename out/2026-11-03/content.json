@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-03",
+  "post": {
+    "enabled": false,
+    "headline": "",
+    "subline": "",
+    "slides": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "reel": {
+    "enabled": true,
+    "kind": "promo",
+    "scenes": [
+      {
+        "type": "title",
+        "mood": "danger",
+        "lines": [
+          "Aynı veriyi *üç kez* giriyorsunuz.",
+          "_Fark etmeden._"
+        ],
+        "voice": "Aynı veriyi *üç kez* giriyorsunuz... fark etmeden.",
+        "tone": "urgent"
+      },
+      {
+        "type": "chaos",
+        "items": [
+          {
+            "a": "Siparişler",
+            "b": "e-ticaret panelinde"
+          },
+          {
+            "a": "Müşteriler",
+            "b": "Excel tablosunda"
+          },
+          {
+            "a": "Faturalar",
+            "b": "muhasebe programında"
+          },
+          {
+            "a": "Kargolar",
+            "b": "e-postada"
+          }
+        ],
+        "voice": "Siparişler bir yerde. Müşteriler Excel'de. Faturalar başka yerde. Hepsi *birbirinden* habersiz.",
+        "tone": "calm"
+      },
+      {
+        "type": "counter",
+        "title": "Elle taşınan veri",
+        "seconds": 25200,
+        "cap": "Örnek hesap: haftada yedi saat kopyala-yapıştır",
+        "sub": "Küçük işler değil, birikince koca bir mesai.",
+        "voice": "Kopyala. Yapıştır. Tekrar. Haftada yaklaşık yedi saat... *boşa*.",
+        "tone": "urgent"
+      },
+      {
+        "type": "orb",
+        "lines": [
+          "Sistemleriniz",
+          "*konuşsun.*"
+        ],
+        "voice": "Peki çözüm ne? Sistemlerinizi *birbirine bağlamak*. Veri bir kez girilir, her yere akar.",
+        "tone": "confident"
+      },
+      {
+        "type": "dashboard",
+        "title": "Tek akış, tek bakış",
+        "cap": "Örnek entegrasyon paneli",
+        "items": [
+          {
+            "a": "1.284",
+            "b": "Senkron sipariş",
+            "c": "örnek"
+          },
+          {
+            "a": "0",
+            "b": "Elle giriş",
+            "c": "hedef"
+          },
+          {
+            "a": "3",
+            "b": "Bağlı sistem",
+            "c": "örnek"
+          },
+          {
+            "a": "7 sa",
+            "b": "Kazanılan süre",
+            "c": "hedef"
+          }
+        ],
+        "voice": "İşler *birbirine bağlansın*. Siz de asıl işinize dönün.",
+        "tone": "excited"
+      },
+      {
+        "type": "outro",
+        "title": "Strateji, tasarım ve teknoloji. Aynı takımda.",
+        "cap": "Projenizi konuşalım · arkesoft.com",
+        "voice": "Arkesoft. // Önce sizi *dinliyoruz*. Sonra işe koyuluyoruz.",
+        "tone": "warm"
+      }
+    ],
+    "caption": "Siparişler bir panelde, müşteriler Excel'de, faturalar başka bir programda... Aynı veriyi elle taşımak sessizce zaman yer. Biz önce süreci dinliyoruz, sonra sistemlerinizi API bağlantılarıyla (programların birbiriyle konuşma yolu) tek akışta birleştiriyoruz. Videodaki rakamlar temsili örnektir. Projenizi konuşalım: arkesoft.com",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#entegrasyon",
+      "#otomasyon",
+      "#eticaret",
+      "#kobi",
+      "#dijitaldönüşüm"
+    ],
+    "source": "",
+    "source_url": "",
+    "video_file": "reel.mp4",
+    "cover_file": "cover.jpg",
+    "duration": 49.5,
+    "timeline": [
+      {
+        "type": "title",
+        "start": 0.0,
+        "dur": 4.577
+      },
+      {
+        "type": "chaos",
+        "start": 4.577,
+        "dur": 11.877
+      },
+      {
+        "type": "counter",
+        "start": 16.454,
+        "dur": 8.921
+      },
+      {
+        "type": "orb",
+        "start": 25.375,
+        "dur": 9.808
+      },
+      {
+        "type": "dashboard",
+        "start": 35.184,
+        "dur": 5.74
+      },
+      {
+        "type": "outro",
+        "start": 40.923,
+        "dur": 8.596
+      }
+    ]
+  },
+  "history_note": "Promo reel: Yazılım Entegrasyonu hizmeti; aynı veriyi elle farklı sistemlere girme sorunu ve sistemleri tek akışta bağlama yaklaşımı; foto post yok.",
+  "publish": true,
+  "published": {}
+}
