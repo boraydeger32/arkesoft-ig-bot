@@ -62,5 +62,13 @@
     "reel_kind": "promo",
     "reel_hook": "Aynı veriyi *üç kez* giriyorsunuz. / _Fark etmeden._",
     "note": "Promo reel: Yazılım Entegrasyonu hizmeti; aynı veriyi elle farklı sistemlere girme sorunu ve sistemleri tek akışta bağlama yaklaşımı; foto post yok."
+  },
+  {
+    "date": "2026-11-04",
+    "post_headline": "*pull_request_target* 2 Aralık'ta varsayılan kapanıyor",
+    "post_source": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2",
+    "reel_kind": "none",
+    "reel_hook": "",
+    "note": "GitHub'ın pull_request_target olayını herkese açık depolarda 2 Aralık 2026'dan itibaren varsayılan engelleyeceği haberini (9 ve 16 Kasım deneme engelleri) foto post olarak paylaştım; reel yok."
   }
 ]

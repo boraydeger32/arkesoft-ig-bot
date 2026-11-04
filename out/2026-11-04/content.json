@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-04",
+  "post": {
+    "enabled": true,
+    "headline": "*pull_request_target* 2 Aralık'ta varsayılan kapanıyor",
+    "subline": "GitHub Actions, herkese açık depolarda riskli bir tetikleyiciyi varsayılan olarak engelleyecek.",
+    "slides": [
+      {
+        "title": "Ne oldu?",
+        "body": "GitHub, herkese açık depolarda pull_request_target olayını 2 Aralık 2026'dan itibaren varsayılan olarak engelleyecek. Başlangıç tarihi önce 2 Kasım olarak planlanmıştı."
+      },
+      {
+        "title": "Neden önemli?",
+        "body": "Bu tetikleyici ana deponun bağlamında çalışır ve gizli anahtarlara erişebilir. Fork'tan gelen kod burada çalışırsa hat ele geçirilebilir veya anahtarlar çalınabilir."
+      },
+      {
+        "title": "Ne yapmalı?",
+        "body": "9 ve 16 Kasım'da 16:00–18:00 (UTC) arasında iki kısa deneme engeli var. Önce Insights'tan hangi akışların etkileneceğine bakın; gerekiyorsa yalnızca ilgili iş akışına açık izin verin."
+      }
+    ],
+    "caption": "GitHub Actions'ta pull_request_target olayı, herkese açık depolarda 2 Aralık 2026'dan itibaren varsayılan olarak engellenecek. 9 ve 16 Kasım'da iki saatlik deneme engelleri olacak. Özel ve kurum içi depolar etkilenmiyor. Açık kaynak ya da herkese açık depo yönetiyorsanız akışlarınızı şimdiden gözden geçirin.\nKaynak: GitHub Changelog",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#github",
+      "#githubactions",
+      "#devops",
+      "#siberguvenlik",
+      "#açıkkaynak"
+    ],
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2",
+    "files": [
+      "post_1.png",
+      "post_2.png",
+      "post_3.png"
+    ]
+  },
+  "reel": {
+    "enabled": false,
+    "kind": "none",
+    "scenes": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "history_note": "GitHub'ın pull_request_target olayını herkese açık depolarda 2 Aralık 2026'dan itibaren varsayılan engelleyeceği haberini (9 ve 16 Kasım deneme engelleri) foto post olarak paylaştım; reel yok.",
+  "publish": true,
+  "published": {}
+}
