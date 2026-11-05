@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-05",
+  "post": {
+    "enabled": false,
+    "headline": "",
+    "subline": "",
+    "slides": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "reel": {
+    "enabled": true,
+    "kind": "news",
+    "scenes": [
+      {
+        "type": "title",
+        "mood": "calm",
+        "lines": [
+          "Kod yazdığınız yer,",
+          "artık *yardımcı* da barındırıyor."
+        ],
+        "voice": "Kod yazdığınız yer... artık bir *yardımcı* da barındırıyor.",
+        "tone": "confident"
+      },
+      {
+        "type": "headline",
+        "cap": "GÜNDEM",
+        "title": "GitHub Copilot artık Xcode'un kodlama asistanında",
+        "lines": [
+          "Apple'ın geliştirme ortamı Xcode'da Copilot, kodlama asistanı seçeneği olarak sunuluyor."
+        ],
+        "source": "GitHub Changelog · 4 Kasım 2026",
+        "voice": "GitHub duyurdu. Copilot artık Xcode'un kodlama asistanında. Yani mobil uygulama yazanlar için *yeni bir seçenek* var.",
+        "tone": "excited"
+      },
+      {
+        "type": "list",
+        "title": "Kısaca ne değişti?",
+        "items": [
+          {
+            "a": "Ne oldu",
+            "b": "Copilot, Xcode içinde asistan oldu"
+          },
+          {
+            "a": "Neden önemli",
+            "b": "Geliştirici ortamdan çıkmıyor"
+          },
+          {
+            "a": "Size etkisi",
+            "b": "Mobil işler hızlanabilir"
+          }
+        ],
+        "voice": "Ne oldu? Copilot, Xcode'a geldi. Neden önemli? Geliştirici *ortamından çıkmadan* yardım alıyor. Size etkisi? Mobil işler hızlanabilir.",
+        "tone": "calm"
+      },
+      {
+        "type": "orb",
+        "lines": [
+          "Araç hızlanır.",
+          "_Karar_ *takımda* kalır."
+        ],
+        "voice": "Araçlar hızlanıyor. Ama kararı veren hâlâ *takım*. Biz de her projede önce sizi dinliyoruz.",
+        "tone": "warm"
+      },
+      {
+        "type": "outro",
+        "title": "Strateji, tasarım ve teknoloji. Aynı takımda.",
+        "cap": "Projenizi konuşalım · arkesoft.com",
+        "voice": "Arkesoft. // Mobil uygulamanızı birlikte *konuşalım*.",
+        "tone": "confident"
+      }
+    ],
+    "caption": "GitHub Copilot artık Xcode'un kodlama asistanında kullanılabiliyor. Mobil uygulama geliştiren ekipler için asistanı kendi ortamında kullanma seçeneği demek. Araçlar hızlansa da iyi ürün, doğru strateji ve birlikte çalışan bir takımla çıkıyor. Projenizi konuşalım: arkesoft.com\nKaynak: GitHub Changelog (4 Kasım 2026)",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#mobiluygulama",
+      "#githubcopilot",
+      "#xcode",
+      "#yapayzeka",
+      "#geliştirici"
+    ],
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
+    "video_file": "reel.mp4",
+    "cover_file": "cover.jpg",
+    "duration": 48.2,
+    "timeline": [
+      {
+        "type": "title",
+        "start": 0.0,
+        "dur": 5.321
+      },
+      {
+        "type": "headline",
+        "start": 5.321,
+        "dur": 9.818
+      },
+      {
+        "type": "list",
+        "start": 15.139,
+        "dur": 16.6
+      },
+      {
+        "type": "orb",
+        "start": 31.739,
+        "dur": 10.28
+      },
+      {
+        "type": "outro",
+        "start": 42.019,
+        "dur": 6.174
+      }
+    ]
+  },
+  "history_note": "GitHub'ın 4 Kasım 2026'da Copilot'un Xcode'un kodlama asistanında kullanılabilir olduğunu duyurmasını news reeli olarak paylaştım; foto post yok.",
+  "publish": true,
+  "published": {}
+}

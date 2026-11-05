@@ -70,5 +70,13 @@
     "reel_kind": "none",
     "reel_hook": "",
     "note": "GitHub'ın pull_request_target olayını herkese açık depolarda 2 Aralık 2026'dan itibaren varsayılan engelleyeceği haberini (9 ve 16 Kasım deneme engelleri) foto post olarak paylaştım; reel yok."
+  },
+  {
+    "date": "2026-11-05",
+    "post_headline": "",
+    "post_source": "",
+    "reel_kind": "news",
+    "reel_hook": "Kod yazdığınız yer, / artık *yardımcı* da barındırıyor.",
+    "note": "GitHub'ın 4 Kasım 2026'da Copilot'un Xcode'un kodlama asistanında kullanılabilir olduğunu duyurmasını news reeli olarak paylaştım; foto post yok."
   }
 ]
