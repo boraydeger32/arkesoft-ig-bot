@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-06",
+  "post": {
+    "enabled": true,
+    "headline": "Pull request sayfası *yenileniyor*",
+    "subline": "GitHub, pull request için daha kompakt bir genel bakış sayfasını herkese açık önizlemeye aldı.",
+    "slides": [
+      {
+        "title": "Pull request sayfası *yenileniyor*",
+        "body": "GitHub, yeni pull request genel bakış sayfasını 5 Kasım 2026'da herkese açık önizlemeye aldı."
+      },
+      {
+        "title": "Ne oldu?",
+        "body": "Sayfanın üstünde birleştirme durumunu ve sıradaki adımları gösteren kısa bir özet var. Birleştirme kutusu aynı bilgiyi yarıdan az alanda veriyor. Kontroller, yorumlar ve onaylar da kompakt görünümde."
+      },
+      {
+        "title": "Neden önemli?",
+        "body": "Çözülmemiş konuşmalara ve kendi yorumlarınıza göre filtreleyebiliyorsunuz. Yorumlar en yeniden eskiye sıralanabiliyor. İnceleme süresinin büyük kısmı bu sayfada geçiyor, küçük bir düzen farkı bile günlük akışı hızlandırır."
+      }
+    ],
+    "caption": "GitHub, pull request için yeni bir genel bakış sayfasını isteğe bağlı herkese açık önizlemede sundu. Birleştirme durumu, kontroller, yorumlar ve onaylar daha az alanda, tek bakışta görünüyor. Ekibiniz kod incelemesine her gün zaman harcıyorsa denemeye değer; klasik görünüme dönmek de kolay.\nKaynak: GitHub Changelog",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#github",
+      "#kodinceleme",
+      "#yazılımgeliştirme",
+      "#geliştirici",
+      "#devops"
+    ],
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview",
+    "files": [
+      "post_1.png",
+      "post_2.png",
+      "post_3.png"
+    ]
+  },
+  "reel": {
+    "enabled": false,
+    "kind": "none",
+    "scenes": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "history_note": "GitHub'ın 5 Kasım 2026'da duyurduğu yeni pull request genel bakış sayfası (herkese açık önizleme) haberini foto post olarak paylaştım; reel yok.",
+  "publish": true,
+  "published": {}
+}
