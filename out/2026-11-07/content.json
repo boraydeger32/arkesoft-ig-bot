@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-07",
+  "post": {
+    "enabled": false,
+    "headline": "",
+    "subline": "",
+    "slides": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "reel": {
+    "enabled": true,
+    "kind": "trend",
+    "scenes": [
+      {
+        "type": "title",
+        "mood": "danger",
+        "lines": [
+          "Web sitesi yaptırmadan önce",
+          "keşke _bilseydim_ *dediklerim.*"
+        ],
+        "voice": "Web sitesi yaptırmadan önce... keşke *bilseydim* dediğiniz şeyler var. Üç tanesi burada.",
+        "tone": "playful"
+      },
+      {
+        "type": "list",
+        "title": "Keşke bilseydim: 3 şey",
+        "items": [
+          {
+            "a": "Site bitmez, büyür",
+            "b": "Yayına almak başlangıç"
+          },
+          {
+            "a": "Güzel yetmez",
+            "b": "Hızlı ve bulunur olmalı"
+          },
+          {
+            "a": "Brief kısa olabilir",
+            "b": "Önce dinlemek yeter"
+          }
+        ],
+        "voice": "Bir. Site *bitmez*, büyür. İki. Güzel görünmek yetmez. Üç. Önce dinleyen ekip fark yaratır.",
+        "tone": "confident"
+      },
+      {
+        "type": "chaos",
+        "items": [
+          {
+            "a": "Fikirler",
+            "b": "WhatsApp'ta"
+          },
+          {
+            "a": "Görseller",
+            "b": "e-postada"
+          },
+          {
+            "a": "Yorumlar",
+            "b": "telefonda not"
+          }
+        ],
+        "voice": "Çünkü çoğu proje böyle başlar. Fikirler bir yerde. Görseller başka yerde. Notlar? ... Telefonda.",
+        "tone": "urgent"
+      },
+      {
+        "type": "orb",
+        "lines": [
+          "Tek plan.",
+          "Tek *takım.*"
+        ],
+        "voice": "Peki çözüm ne? Tek plan. Tek *takım*. Strateji, tasarım ve yazılım aynı masada.",
+        "tone": "warm"
+      },
+      {
+        "type": "outro",
+        "title": "Strateji, tasarım ve teknoloji. Aynı takımda.",
+        "cap": "Projenizi konuşalım · arkesoft.com",
+        "voice": "Arkesoft. // Projenizi *konuşalım*.",
+        "tone": "confident"
+      }
+    ],
+    "caption": "Son günlerde çok konuşulan 'keşke bilseydim' formatını web projelerine uyarladık. Üç not: site yayına girince bitmez, güzel görünmek tek başına yetmez, iyi bir başlangıç önce dinlemekle olur. Sizin listenizde hangisi var?\nProjenizi konuşalım: arkesoft.com",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#kurumsalwebsitesi",
+      "#dijitalstrateji",
+      "#kobi",
+      "#seo",
+      "#girişimci"
+    ],
+    "source": "",
+    "source_url": "",
+    "video_file": "reel.mp4",
+    "cover_file": "cover.jpg",
+    "duration": 48.5,
+    "timeline": [
+      {
+        "type": "title",
+        "start": 0.0,
+        "dur": 8.071
+      },
+      {
+        "type": "list",
+        "start": 8.071,
+        "dur": 13.119
+      },
+      {
+        "type": "chaos",
+        "start": 21.189,
+        "dur": 11.703
+      },
+      {
+        "type": "orb",
+        "start": 32.893,
+        "dur": 10.344
+      },
+      {
+        "type": "outro",
+        "start": 43.237,
+        "dur": 5.312
+      }
+    ]
+  },
+  "history_note": "Trend reel: 'keşke bilseydim, üç şey' formatını web sitesi projelerine uyarladım (site büyür, hız/bulunabilirlik, önce dinleme, tek takım); foto post yok.",
+  "publish": true,
+  "published": {}
+}
