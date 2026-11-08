@@ -94,5 +94,13 @@
     "reel_kind": "trend",
     "reel_hook": "Web sitesi yaptırmadan önce / keşke _bilseydim_ *dediklerim.*",
     "note": "Trend reel: 'keşke bilseydim, üç şey' formatını web sitesi projelerine uyarladım (site büyür, hız/bulunabilirlik, önce dinleme, tek takım); foto post yok."
+  },
+  {
+    "date": "2026-11-08",
+    "post_headline": "Sohbetten çıkmadan *kod* değişir",
+    "post_source": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
+    "reel_kind": "none",
+    "reel_hook": "",
+    "note": "GitHub'ın 6 Kasım 2026'da @GitHub botunu Slack ve Microsoft Teams'te genel kullanıma açtığı haberini (Teams canvas, depo tanıma, kaynak notu) foto post olarak paylaştım; araçları birbirine bağlama mesajı verdim; reel yok."
   }
 ]

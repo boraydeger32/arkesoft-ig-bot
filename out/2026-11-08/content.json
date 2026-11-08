@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-08",
+  "post": {
+    "enabled": true,
+    "headline": "Sohbetten çıkmadan *kod* değişir",
+    "subline": "GitHub'ın @GitHub botu Slack ve Microsoft Teams'te genel kullanıma açıldı.",
+    "slides": [
+      {
+        "title": "Ne oldu?",
+        "body": "GitHub, @GitHub botunu 6 Kasım 2026'da Slack ve Microsoft Teams için genel kullanıma açtı. Ekipler sohbetten çıkmadan hata inceleyebiliyor, issue açabiliyor, değişiklik yaptırıp pull request (kod değişikliği teklifi) başlatabiliyor."
+      },
+      {
+        "title": "Neden önemli?",
+        "body": "Teams'te yeni bir canvas alanı geliyor: uygulama planı, kod değişiklikleri ve önizleme sohbetin yanında görülüyor. Bot, mesajdan hangi depoyu kastettiğinizi anlıyor. Oluşturulan issue ve pull request'lere de sohbet kaynağı notu düşülüyor."
+      },
+      {
+        "title": "Bize ne söylüyor?",
+        "body": "İş, ekibin zaten konuştuğu yere taşınıyor. Küçük ekipler ve KOBİ'ler için de aynı fikir geçerli: araçlar birbirine bağlandıkça işler daha az kayboluyor. Biz buna \"işler birbirine bağlansın\" diyoruz."
+      }
+    ],
+    "caption": "GitHub'ın @GitHub botu artık Slack ve Microsoft Teams'te genel kullanımda. Hata incelemek, issue açmak ve pull request başlatmak sohbetten çıkmadan mümkün. Teams'e eklenen canvas alanı da planı ve değişiklikleri konuşmanın yanında gösteriyor. Ekibinizin araçları birbiriyle konuşuyor mu?\nKaynak: GitHub Changelog",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#github",
+      "#yazılımgeliştirme",
+      "#teknoloji",
+      "#otomasyon",
+      "#yazılımentegrasyonu"
+    ],
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
+    "files": [
+      "post_1.png",
+      "post_2.png",
+      "post_3.png"
+    ]
+  },
+  "reel": {
+    "enabled": false,
+    "kind": "none",
+    "scenes": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "history_note": "GitHub'ın 6 Kasım 2026'da @GitHub botunu Slack ve Microsoft Teams'te genel kullanıma açtığı haberini (Teams canvas, depo tanıma, kaynak notu) foto post olarak paylaştım; araçları birbirine bağlama mesajı verdim; reel yok.",
+  "publish": true,
+  "published": {}
+}
