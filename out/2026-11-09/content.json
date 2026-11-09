@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-09",
+  "post": {
+    "enabled": true,
+    "headline": "Copilot'u *ölçmek* artık daha kolay",
+    "subline": "GitHub, Copilot etki panosuna sohbet ve VS Code ajan kullanımını ekledi.",
+    "slides": [
+      {
+        "title": "Ne oldu?",
+        "body": "GitHub, 6 Kasım 2026'da Copilot etki panosunu güncelledi. Ajan benimseme grafiğine Copilot Chat ve VS Code Agents penceresi eklendi; toplam dokuz özellik izleniyor."
+      },
+      {
+        "title": "Neden önemli?",
+        "body": "Bir özelliği kullanıcı, 28 günlük dönemde en az iki gün kullandıysa 'etkileşimde' sayılıyor. 'Pasif kullanıcılar' grubu da 'Chat-first kullanıcılar' olarak yeniden adlandırıldı."
+      },
+      {
+        "title": "Bize ne söylüyor?",
+        "body": "Araç almak yetmiyor, kullanılıp kullanılmadığını görmek de gerekiyor. Ekibinizde hangi aracın gerçekten işe yaradığını ölçün; kararı hisse değil veriye dayandırın."
+      }
+    ],
+    "caption": "GitHub, Copilot etki panosuna Copilot Chat ve VS Code Agents kullanımını ekledi. Raporlara erişim kurum ve organizasyon yöneticilerinde; kullanım metrikleri politikasının açık olması gerekiyor. Yazılım ekiplerinde araç yatırımını ölçmek, doğru kararın ilk adımı.\nKaynak: GitHub Blog",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#github",
+      "#copilot",
+      "#yapayzeka",
+      "#yazılımgeliştirme"
+    ],
+    "source": "GitHub Blog",
+    "source_url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
+    "files": [
+      "post_1.png",
+      "post_2.png",
+      "post_3.png"
+    ]
+  },
+  "reel": {
+    "enabled": false,
+    "kind": "none",
+    "scenes": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "history_note": "GitHub'ın 6 Kasım 2026'da Copilot etki panosuna Copilot Chat ve VS Code Agents kullanımını eklemesi haberini foto post olarak paylaştım; aracın kullanımını ölçme mesajı verdim; reel yok.",
+  "publish": true,
+  "published": {}
+}

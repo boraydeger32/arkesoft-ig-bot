@@ -102,5 +102,13 @@
     "reel_kind": "none",
     "reel_hook": "",
     "note": "GitHub'ın 6 Kasım 2026'da @GitHub botunu Slack ve Microsoft Teams'te genel kullanıma açtığı haberini (Teams canvas, depo tanıma, kaynak notu) foto post olarak paylaştım; araçları birbirine bağlama mesajı verdim; reel yok."
+  },
+  {
+    "date": "2026-11-09",
+    "post_headline": "Copilot'u *ölçmek* artık daha kolay",
+    "post_source": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
+    "reel_kind": "none",
+    "reel_hook": "",
+    "note": "GitHub'ın 6 Kasım 2026'da Copilot etki panosuna Copilot Chat ve VS Code Agents kullanımını eklemesi haberini foto post olarak paylaştım; aracın kullanımını ölçme mesajı verdim; reel yok."
   }
 ]
