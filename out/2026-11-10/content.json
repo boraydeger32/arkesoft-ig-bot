@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-10",
+  "post": {
+    "enabled": false,
+    "headline": "",
+    "subline": "",
+    "slides": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "reel": {
+    "enabled": true,
+    "kind": "promo",
+    "scenes": [
+      {
+        "type": "title",
+        "mood": "danger",
+        "lines": [
+          "Müşteriniz yazdı…",
+          "ama kimse _görmedi._"
+        ],
+        "voice": "Müşteriniz yazdı... ama kimse *görmedi*.",
+        "tone": "urgent"
+      },
+      {
+        "type": "chaos",
+        "items": [
+          {
+            "a": "Teklifler",
+            "b": "e-postada"
+          },
+          {
+            "a": "Notlar",
+            "b": "Excel'de"
+          },
+          {
+            "a": "Müşteri talepleri",
+            "b": "WhatsApp'ta"
+          },
+          {
+            "a": "Görevler",
+            "b": "kimsenin aklında"
+          }
+        ],
+        "voice": "Teklifler e-postada. Notlar Excel'de. Talepler? ... WhatsApp'ta. Görevler de kimsenin aklında.",
+        "tone": "calm"
+      },
+      {
+        "type": "counter",
+        "title": "Aranan bilgiye giden zaman",
+        "seconds": 27772,
+        "cap": "Yılda boşa giden süre",
+        "sub": "Örnek bir hesap: günde yarım saat arama",
+        "voice": "Her gün biraz arama... // Yıl sonunda *günlerce* zaman.",
+        "tone": "urgent"
+      },
+      {
+        "type": "orb",
+        "lines": [
+          "Her şey *tek* yerde.",
+          "Her iş _takipte._"
+        ],
+        "voice": "Peki bunları ne bağlıyor? Tek bir *merkez*. Müşteri, teklif, görev... hepsi bir arada.",
+        "tone": "confident"
+      },
+      {
+        "type": "dashboard",
+        "title": "Müşteri ve iş takibi",
+        "cap": "Örnek CRM paneli",
+        "items": [
+          {
+            "a": "42",
+            "b": "Açık teklif",
+            "c": "örnek"
+          },
+          {
+            "a": "18",
+            "b": "Bugünkü görev",
+            "c": "örnek"
+          },
+          {
+            "a": "7",
+            "b": "Yanıt bekleyen",
+            "c": "örnek"
+          },
+          {
+            "a": "%92",
+            "b": "Zamanında dönüş",
+            "c": "hedef"
+          }
+        ],
+        "voice": "Kim ne zaman yazdı, sıra kimde... *tek bakışta* görün.",
+        "tone": "excited"
+      },
+      {
+        "type": "outro",
+        "title": "Strateji, tasarım ve teknoloji. Aynı takımda.",
+        "cap": "Projenizi konuşalım · arkesoft.com",
+        "voice": "Önce sizi dinliyoruz. Sonra işe koyuluyoruz. Arkesoft. Projenizi *konuşalım*.",
+        "tone": "warm"
+      }
+    ],
+    "caption": "İş büyüdükçe müşteri bilgisi her yere dağılıyor: e-posta, tablo, mesajlaşma uygulaması. Biz önce süreci dinliyor, sonra müşteri takibini ve işleri tek merkezde topluyoruz. Panel ve rakamlar örnek amaçlıdır.\nProjenizi konuşalım: arkesoft.com",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#crm",
+      "#otomasyon",
+      "#kobi",
+      "#işsüreçleri",
+      "#dijitaldönüşüm"
+    ],
+    "source": "",
+    "source_url": "",
+    "video_file": "reel.mp4",
+    "cover_file": "cover.jpg",
+    "duration": 47.9,
+    "timeline": [
+      {
+        "type": "title",
+        "start": 0.0,
+        "dur": 4.209
+      },
+      {
+        "type": "chaos",
+        "start": 4.209,
+        "dur": 12.682
+      },
+      {
+        "type": "counter",
+        "start": 16.891,
+        "dur": 5.5
+      },
+      {
+        "type": "orb",
+        "start": 22.391,
+        "dur": 9.447
+      },
+      {
+        "type": "dashboard",
+        "start": 31.837,
+        "dur": 5.5
+      },
+      {
+        "type": "outro",
+        "start": 37.337,
+        "dur": 10.551
+      }
+    ]
+  },
+  "history_note": "Promo reel: CRM & İş Süreci Otomasyonu hizmeti; müşteri taleplerinin ve görevlerin dağınık araçlarda kaybolması sorunu ve tek merkezde takip yaklaşımı; foto post yok.",
+  "publish": true,
+  "published": {}
+}
