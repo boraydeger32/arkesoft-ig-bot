@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-11",
+  "post": {
+    "enabled": true,
+    "headline": "Gizli anahtarlar artık *log'larda* da aranıyor",
+    "subline": "GitHub, Actions iş akışı log'larındaki sızıntıları taramaya başladı.",
+    "slides": [
+      {
+        "title": "Gizli anahtarlar artık *log'larda* da aranıyor",
+        "body": "GitHub secret scanning, Actions iş akışı log'larındaki gizli bilgileri de tarıyor. Özellik 9 Kasım 2026'da herkese açık önizleme olarak duyuruldu."
+      },
+      {
+        "title": "Ne değişiyor?",
+        "body": "Bir iş akışı tamamlandığında log'lar sağlayıcı kalıplarına göre taranıyor. Bulgular, log bağlantısıyla birlikte depodaki secret scanning uyarı listesinde görünüyor. Log silinse bile uyarı kalıyor."
+      },
+      {
+        "title": "Bilmeniz gerekenler",
+        "body": "Politika varsayılan olarak kapalı ve GitHub Enterprise Cloud'da Secret Protection ya da Advanced Security gerektiriyor. Eski log'lar taranmıyor; önizlemede bildirim de gönderilmiyor, uyarı listesine bakmak gerekiyor."
+      }
+    ],
+    "caption": "GitHub, Actions iş akışı log'larında sızan gizli bilgileri de taramaya başladı. Özellik herkese açık önizlemede; kurumsal planlarda yönetici politikasıyla açılıyor. Bizim çıkarımımız: gizli anahtarlar yalnızca kodda değil, otomasyonun çıktısında da durabilir.\nKaynak: GitHub Changelog",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#github",
+      "#sibergüvenlik",
+      "#devops",
+      "#yazılımgeliştirme"
+    ],
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
+    "files": [
+      "post_1.png",
+      "post_2.png",
+      "post_3.png"
+    ]
+  },
+  "reel": {
+    "enabled": false,
+    "kind": "none",
+    "scenes": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "history_note": "GitHub'ın 9 Kasım 2026'da Actions iş akışı log'larında secret scanning'i herkese açık önizlemede duyurduğu haberini foto post olarak paylaştım (log'larda sızıntı hijyeni mesajı); reel yok.",
+  "publish": true,
+  "published": {}
+}

@@ -118,5 +118,13 @@
     "reel_kind": "promo",
     "reel_hook": "Müşteriniz yazdı… / ama kimse _görmedi._",
     "note": "Promo reel: CRM & İş Süreci Otomasyonu hizmeti; müşteri taleplerinin ve görevlerin dağınık araçlarda kaybolması sorunu ve tek merkezde takip yaklaşımı; foto post yok."
+  },
+  {
+    "date": "2026-11-11",
+    "post_headline": "Gizli anahtarlar artık *log'larda* da aranıyor",
+    "post_source": "https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
+    "reel_kind": "none",
+    "reel_hook": "",
+    "note": "GitHub'ın 9 Kasım 2026'da Actions iş akışı log'larında secret scanning'i herkese açık önizlemede duyurduğu haberini foto post olarak paylaştım (log'larda sızıntı hijyeni mesajı); reel yok."
   }
 ]
