@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-12",
+  "post": {
+    "enabled": false,
+    "headline": "",
+    "subline": "",
+    "slides": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "reel": {
+    "enabled": true,
+    "kind": "news",
+    "scenes": [
+      {
+        "type": "title",
+        "mood": "danger",
+        "lines": [
+          "Her iş _başka_ bir yerde mi?",
+          "*Not defteri,* tablo, mesaj…"
+        ],
+        "voice": "İşler hep başka bir yerde mi duruyor? Not defterinde... tabloda... *mesajlarda*.",
+        "tone": "urgent"
+      },
+      {
+        "type": "headline",
+        "cap": "GÜNDEM",
+        "title": "GitHub: Issue türleri ve alanları artık bireysel hesaplarda",
+        "lines": [
+          "11 Kasım 2026'da genel kullanıma açıldı."
+        ],
+        "source": "GitHub Changelog",
+        "voice": "GitHub bir yenilik duyurdu. Issue türleri ve alanları artık bireysel hesaplarda da *açık*.",
+        "tone": "confident"
+      },
+      {
+        "type": "list",
+        "title": "Ne değişti?",
+        "items": [
+          {
+            "a": "Hazır türler",
+            "b": "Bug, Task ve Feature"
+          },
+          {
+            "a": "Hazır alanlar",
+            "b": "Priority, Effort, başlangıç ve hedef tarihi"
+          },
+          {
+            "a": "Özelleştirme",
+            "b": "25 türe ve 25 alana kadar"
+          }
+        ],
+        "voice": "Hazır türler var. Hazır alanlar var. Üstelik ikisini de *özelleştirebiliyorsunuz*.",
+        "tone": "calm"
+      },
+      {
+        "type": "orb",
+        "lines": [
+          "İşler _birbirine_",
+          "*bağlansın.*"
+        ],
+        "voice": "Bizim okumamız şu: iş düzenli kaydedilirse, takip *kolaylaşır*. Küçük ekip de olsa.",
+        "tone": "warm"
+      },
+      {
+        "type": "outro",
+        "title": "Strateji, tasarım ve teknoloji. Aynı takımda.",
+        "cap": "Projenizi konuşalım · arkesoft.com",
+        "voice": "Arkesoft. // İşlerinizi birlikte *düzene* koyalım.",
+        "tone": "warm"
+      }
+    ],
+    "caption": "GitHub, issue türleri ve alanlarını bireysel hesaplara ait depolarda genel kullanıma açtı. Varsayılan türler Bug, Task ve Feature; varsayılan alanlar Priority, Effort, başlangıç ve hedef tarihi. Her biri 25'e kadar özelleştirilebiliyor. İş takibini düzenli tutmak, küçük ekipler için de fark yaratıyor. Projenizi konuşalım: arkesoft.com\nKaynak: GitHub Changelog",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#github",
+      "#yazılımgeliştirme",
+      "#işsüreçleri",
+      "#kobi",
+      "#teknolojigündemi"
+    ],
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
+    "video_file": "reel.mp4",
+    "cover_file": "cover.jpg",
+    "duration": 40.3,
+    "timeline": [
+      {
+        "type": "title",
+        "start": 0.0,
+        "dur": 7.88
+      },
+      {
+        "type": "headline",
+        "start": 7.88,
+        "dur": 8.38
+      },
+      {
+        "type": "list",
+        "start": 16.26,
+        "dur": 9.676
+      },
+      {
+        "type": "orb",
+        "start": 25.936,
+        "dur": 8.18
+      },
+      {
+        "type": "outro",
+        "start": 34.115,
+        "dur": 6.239
+      }
+    ]
+  },
+  "history_note": "GitHub'ın 11 Kasım 2026'da issue türleri ve alanlarını bireysel hesaplarda genel kullanıma açtığı haberini news reeli olarak paylaştım; foto post yok.",
+  "publish": true,
+  "published": {}
+}
