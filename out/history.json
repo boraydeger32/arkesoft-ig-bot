@@ -134,5 +134,13 @@
     "reel_kind": "news",
     "reel_hook": "Her iş _başka_ bir yerde mi? / *Not defteri,* tablo, mesaj…",
     "note": "GitHub'ın 11 Kasım 2026'da issue türleri ve alanlarını bireysel hesaplarda genel kullanıma açtığı haberini news reeli olarak paylaştım; foto post yok."
+  },
+  {
+    "date": "2026-11-13",
+    "post_headline": "Uyuyan depolarda güvenlik uyarısı *susuyor*",
+    "post_source": "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories",
+    "reel_kind": "none",
+    "reel_hook": "",
+    "note": "GitHub'ın 10 Kasım 2026'da duyurduğu, bir yıldır etkinlik görmeyen depolarda 8 Aralık 2026'dan itibaren Dependabot uyarılarını kapatma haberini foto post olarak paylaştım (eski projelere bakım mesajı); reel yok."
   }
 ]

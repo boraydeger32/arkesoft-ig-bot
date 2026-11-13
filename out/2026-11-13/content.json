@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-13",
+  "post": {
+    "enabled": true,
+    "headline": "Uyuyan depolarda güvenlik uyarısı *susuyor*",
+    "subline": "GitHub, bir yıldır işlem görmeyen depolarda Dependabot uyarılarını kapatıyor.",
+    "slides": [
+      {
+        "title": "Uyuyan depolarda güvenlik uyarısı *susuyor*",
+        "body": "GitHub, bir yıldır işlem görmeyen depolarda Dependabot uyarılarını kapatıyor."
+      },
+      {
+        "title": "Ne oldu?",
+        "body": "8 Aralık 2026'dan itibaren, son bir yılda hareket görmeyen çoğu depoda Dependabot uyarıları kapanacak. Mevcut uyarılar silinmez, arşivlenir ve geri getirilebilir."
+      },
+      {
+        "title": "Neden önemli?",
+        "body": "Etkinlik; bir dala veya etikete push, deponun oluşturulması ya da uyarıların açılması sayılıyor. Depoya yeni bir push gelince uyarılar kendiliğinden geri açılır."
+      }
+    ],
+    "caption": "Bir yıldır dokunulmayan depolarda Dependabot (bağımlılık güvenlik uyarıları) 8 Aralık 2026'dan itibaren kapanacak. Uyarılar arşivlenir, bir push ya da ayarlardan geri açılır. Mesaj basit: eski ama hâlâ çalışan bir proje, bakımsız kalmamalı.\nKaynak: GitHub Changelog",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#github",
+      "#dependabot",
+      "#siberguvenlik",
+      "#yazılımgeliştirme",
+      "#kobi"
+    ],
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories",
+    "files": [
+      "post_1.png",
+      "post_2.png",
+      "post_3.png"
+    ]
+  },
+  "reel": {
+    "enabled": false,
+    "kind": "none",
+    "scenes": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "history_note": "GitHub'ın 10 Kasım 2026'da duyurduğu, bir yıldır etkinlik görmeyen depolarda 8 Aralık 2026'dan itibaren Dependabot uyarılarını kapatma haberini foto post olarak paylaştım (eski projelere bakım mesajı); reel yok.",
+  "publish": true,
+  "published": {}
+}
