@@ -142,5 +142,13 @@
     "reel_kind": "none",
     "reel_hook": "",
     "note": "GitHub'ın 10 Kasım 2026'da duyurduğu, bir yıldır etkinlik görmeyen depolarda 8 Aralık 2026'dan itibaren Dependabot uyarılarını kapatma haberini foto post olarak paylaştım (eski projelere bakım mesajı); reel yok."
+  },
+  {
+    "date": "2026-11-14",
+    "post_headline": "",
+    "post_source": "",
+    "reel_kind": "trend",
+    "reel_hook": "Yazılım dilini / _sadeleştirdik:_ *Türkçeye çevirdik.*",
+    "note": "Trend reel: 'karmaşık şeyi en sade dille anlat' formatını yazılım jargonunu Türkçeye çevirme (entegrasyon, otomasyon, responsive) ve sade iletişim vaadiyle uyarladım; foto post yok."
   }
 ]

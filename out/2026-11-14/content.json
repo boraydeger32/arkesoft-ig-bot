@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-14",
+  "post": {
+    "enabled": false,
+    "headline": "",
+    "subline": "",
+    "slides": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "reel": {
+    "enabled": true,
+    "kind": "trend",
+    "scenes": [
+      {
+        "type": "title",
+        "mood": "calm",
+        "lines": [
+          "Yazılım dilini",
+          "_sadeleştirdik:_ *Türkçeye çevirdik.*"
+        ],
+        "voice": "Yazılımcılar bir şey söyler. Siz hiçbir şey anlamazsınız. Bugün *sadeleştiriyoruz*.",
+        "tone": "playful"
+      },
+      {
+        "type": "list",
+        "title": "Yazılımcı dilinden *Türkçeye*",
+        "items": [
+          {
+            "a": "Entegrasyon",
+            "b": "Programlar birbiriyle konuşsun"
+          },
+          {
+            "a": "Otomasyon",
+            "b": "Aynı işi iki kez yapmayın"
+          },
+          {
+            "a": "Responsive",
+            "b": "Telefonda da düzgün görünsün"
+          }
+        ],
+        "voice": "Entegrasyon? Programlar birbiriyle *konuşsun*. Otomasyon? Aynı işi iki kez yapmayın. Responsive? Telefonda da düzgün görünsün.",
+        "tone": "confident"
+      },
+      {
+        "type": "list",
+        "title": "Bizden duyacağınız *üç cümle*",
+        "items": [
+          {
+            "a": "Önce sizi dinleriz",
+            "b": "Sonra işe koyuluruz"
+          },
+          {
+            "a": "Teknik terim yok",
+            "b": "Her şeyi sade anlatırız"
+          },
+          {
+            "a": "Bitince de yanınızdayız",
+            "b": "Destek bizden"
+          }
+        ],
+        "voice": "Önce sizi dinleriz. Sonra işe koyuluruz. Teknik terim yok... her şeyi *sade* anlatırız.",
+        "tone": "calm"
+      },
+      {
+        "type": "orb",
+        "lines": [
+          "Karmaşık iş.",
+          "*Sade* anlatım."
+        ],
+        "voice": "Karmaşık işi, sade anlatmak. // Biz *bunu* seviyoruz.",
+        "tone": "warm"
+      },
+      {
+        "type": "outro",
+        "title": "Strateji, tasarım ve teknoloji. Aynı takımda.",
+        "cap": "Projenizi konuşalım · arkesoft.com",
+        "voice": "Arkesoft. Projenizi *konuşalım*... sizin dilinizden.",
+        "tone": "confident"
+      }
+    ],
+    "caption": "Son günlerde sosyal medyada çok konuşulan bir format var: karmaşık şeyi en sade dille anlatmak. Biz de yazılım terimlerini Türkçeye çevirdik. Bir terimi anlamadıysanız sormaktan çekinmeyin, sade anlatırız.\nProjenizi konuşalım: arkesoft.com",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#dijitalajans",
+      "#kobi",
+      "#yazılımentegrasyonu",
+      "#otomasyon",
+      "#sadedil"
+    ],
+    "source": "",
+    "source_url": "",
+    "video_file": "reel.mp4",
+    "cover_file": "cover.jpg",
+    "duration": 48.1,
+    "timeline": [
+      {
+        "type": "title",
+        "start": 0.0,
+        "dur": 8.973
+      },
+      {
+        "type": "list",
+        "start": 8.973,
+        "dur": 15.383
+      },
+      {
+        "type": "list",
+        "start": 24.356,
+        "dur": 10.418
+      },
+      {
+        "type": "orb",
+        "start": 34.774,
+        "dur": 6.999
+      },
+      {
+        "type": "outro",
+        "start": 41.772,
+        "dur": 6.328
+      }
+    ]
+  },
+  "history_note": "Trend reel: 'karmaşık şeyi en sade dille anlat' formatını yazılım jargonunu Türkçeye çevirme (entegrasyon, otomasyon, responsive) ve sade iletişim vaadiyle uyarladım; foto post yok.",
+  "publish": true,
+  "published": {}
+}
