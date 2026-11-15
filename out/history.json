@@ -150,5 +150,13 @@
     "reel_kind": "trend",
     "reel_hook": "Yazılım dilini / _sadeleştirdik:_ *Türkçeye çevirdik.*",
     "note": "Trend reel: 'karmaşık şeyi en sade dille anlat' formatını yazılım jargonunu Türkçeye çevirme (entegrasyon, otomasyon, responsive) ve sade iletişim vaadiyle uyarladım; foto post yok."
+  },
+  {
+    "date": "2026-11-15",
+    "post_headline": "Copilot'ta altı model *emekli* oluyor",
+    "post_source": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+    "reel_kind": "none",
+    "reel_hook": "",
+    "note": "GitHub'ın 13 Kasım 2026'da duyurduğu, altı Copilot modelinin 14 Aralık 2026'da kullanımdan kalkması haberini foto post olarak paylaştım (tek modele bağımlı kalmama mesajı); reel yok."
   }
 ]

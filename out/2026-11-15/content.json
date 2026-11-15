@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-15",
+  "post": {
+    "enabled": true,
+    "headline": "Copilot'ta altı model *emekli* oluyor",
+    "subline": "GitHub, 14 Aralık 2026'da bazı Copilot modellerini kaldıracağını duyurdu.",
+    "slides": [
+      {
+        "title": "Altı model, tek tarih",
+        "body": "GitHub, 14 Aralık 2026'da altı modeli Copilot'tan kaldıracak: Claude Fable 5, Claude Haiku 4.5, Gemini 3.8 Flash, Gemini 4 Argon, Grok 4.6 ve Kimi K3."
+      },
+      {
+        "title": "Neden önemli?",
+        "body": "Kaldırma sohbet, satır içi düzenleme, ajan modu ve kod tamamlama dahil tüm Copilot deneyimlerini kapsıyor. Belirli bir modele bağlı iş akışlarınız varsa kırılabilir."
+      },
+      {
+        "title": "Bize ne söylüyor?",
+        "body": "Önerilen yedekler: Claude Fable 5.2, Claude Haiku 5.5, Gemini 4 Hydrogen, Gemini 4 Carbon ve Grok 4.7. Kimi K3 için yedek henüz açıklanmadı. Tek bir modele bağımlı kalmayın, iş akışlarınızı erkenden güncelleyin."
+      }
+    ],
+    "caption": "GitHub, 14 Aralık 2026'da altı Copilot modelini kullanımdan kaldıracağını duyurdu. Etkilenen modellerden birine bağlı akışlarınız varsa, tarih gelmeden önerilen yedeklere geçmek iyi olur. Yapay zekâ araçları hızla değişiyor; iş akışlarınızı tek bir modele sabitlemeyin.\nKaynak: GitHub Changelog",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#githubcopilot",
+      "#yapayzeka",
+      "#yazılımgeliştirme",
+      "#teknoloji",
+      "#geliştirici"
+    ],
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+    "files": [
+      "post_1.png",
+      "post_2.png",
+      "post_3.png"
+    ]
+  },
+  "reel": {
+    "enabled": false,
+    "kind": "none",
+    "scenes": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "history_note": "GitHub'ın 13 Kasım 2026'da duyurduğu, altı Copilot modelinin 14 Aralık 2026'da kullanımdan kalkması haberini foto post olarak paylaştım (tek modele bağımlı kalmama mesajı); reel yok.",
+  "publish": true,
+  "published": {}
+}
