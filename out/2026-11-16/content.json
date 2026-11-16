@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-16",
+  "post": {
+    "enabled": true,
+    "headline": "Actions'ta *ARM32* dönemi kapanıyor",
+    "subline": "GitHub, ARM32 iş çalıştırma desteğini 8 Aralık 2026'ya kadar sonlandırıyor.",
+    "slides": [
+      {
+        "title": "Ne oldu?",
+        "body": "GitHub, Actions barındırılan çalıştırıcılarında Windows ve Linux için ARM32 iş çalıştırma desteğini kaldırıyor. Son tarih: 8 Aralık 2026."
+      },
+      {
+        "title": "Neden önemli?",
+        "body": "Neden, Actions'ta Node 20 desteğinin bitmesi. Node 24, ARM32'yi desteklemiyor. ARM32 hedefleyen iş akışları bu tarihten sonra çalışmayabilir."
+      },
+      {
+        "title": "Bize ne söylüyor?",
+        "body": "Otomasyonların altındaki ortam da yaşlanır. Ekipler ve KOBİ'ler için pratik adım: derleme hatlarınızı gözden geçirin, eski mimarilere bağımlılığı şimdiden listeleyin."
+      }
+    ],
+    "caption": "GitHub Actions'ta ARM32 desteği 8 Aralık 2026'ya kadar kalkıyor. Sebep, Node 20 desteğinin bitmesi; Node 24 ARM32'yi desteklemiyor. Derleme ve dağıtım hatlarınız eski mimarilere bağlıysa, takvimi şimdiden planlamakta fayda var.\nKaynak: GitHub Changelog",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#github",
+      "#githubactions",
+      "#devops",
+      "#yazılımgeliştirme",
+      "#teknoloji"
+    ],
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
+    "files": [
+      "post_1.png",
+      "post_2.png",
+      "post_3.png"
+    ]
+  },
+  "reel": {
+    "enabled": false,
+    "kind": "none",
+    "scenes": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "history_note": "GitHub'ın 12 Kasım 2026'da duyurduğu, Actions barındırılan çalıştırıcılarında ARM32 desteğinin 8 Aralık 2026'ya kadar kalkması haberini foto post olarak paylaştım (derleme hattı bağımlılıklarını gözden geçirme mesajı); reel yok.",
+  "publish": true,
+  "published": {}
+}

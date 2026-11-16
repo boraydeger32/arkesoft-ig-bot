@@ -158,5 +158,13 @@
     "reel_kind": "none",
     "reel_hook": "",
     "note": "GitHub'ın 13 Kasım 2026'da duyurduğu, altı Copilot modelinin 14 Aralık 2026'da kullanımdan kalkması haberini foto post olarak paylaştım (tek modele bağımlı kalmama mesajı); reel yok."
+  },
+  {
+    "date": "2026-11-16",
+    "post_headline": "Actions'ta *ARM32* dönemi kapanıyor",
+    "post_source": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
+    "reel_kind": "none",
+    "reel_hook": "",
+    "note": "GitHub'ın 12 Kasım 2026'da duyurduğu, Actions barındırılan çalıştırıcılarında ARM32 desteğinin 8 Aralık 2026'ya kadar kalkması haberini foto post olarak paylaştım (derleme hattı bağımlılıklarını gözden geçirme mesajı); reel yok."
   }
 ]
