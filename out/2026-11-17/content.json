@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-17",
+  "post": {
+    "enabled": false,
+    "headline": "",
+    "subline": "",
+    "slides": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "reel": {
+    "enabled": true,
+    "kind": "promo",
+    "scenes": [
+      {
+        "type": "title",
+        "mood": "danger",
+        "lines": [
+          "Siparişler geliyor…",
+          "ama _mağazanız_ *yetişemiyor.*"
+        ],
+        "voice": "Siparişler geliyor... ama mağazanız *yetişemiyor*.",
+        "tone": "urgent"
+      },
+      {
+        "type": "chaos",
+        "items": [
+          {
+            "a": "Siparişler",
+            "b": "mağaza panelinde"
+          },
+          {
+            "a": "Stoklar",
+            "b": "Excel'de"
+          },
+          {
+            "a": "Kargo takibi",
+            "b": "e-postada"
+          },
+          {
+            "a": "Müşteri soruları",
+            "b": "WhatsApp'ta"
+          }
+        ],
+        "voice": "Siparişler bir yerde. Stoklar Excel'de. Kargo? ... E-postada. Müşteri soruları da *WhatsApp'ta*.",
+        "tone": "urgent"
+      },
+      {
+        "type": "counter",
+        "title": "Elle girilen her kayıt",
+        "seconds": 27772,
+        "cap": "boşa giden zaman",
+        "sub": "Aynı bilgiyi üç yere yazmak.",
+        "voice": "Aynı bilgiyi üç yere yazıyorsunuz. Her gün. Bu, *boşa giden* zaman.",
+        "tone": "calm"
+      },
+      {
+        "type": "orb",
+        "lines": [
+          "Tek mağaza.",
+          "*Tek akış.*"
+        ],
+        "voice": "Peki çözüm ne? Önce sizi dinliyoruz. Sonra mağazanızı, stoğunuzu ve kargonuzu *tek akışta* bağlıyoruz.",
+        "tone": "confident"
+      },
+      {
+        "type": "dashboard",
+        "title": "E-ticaret panelinizde",
+        "cap": "Örnek panel",
+        "items": [
+          {
+            "a": "1.284",
+            "b": "Günlük sipariş",
+            "c": "+18%"
+          },
+          {
+            "a": "Stok",
+            "b": "Canlı senkron",
+            "c": "Anlık"
+          },
+          {
+            "a": "Kargo",
+            "b": "Otomatik takip",
+            "c": "Hazır"
+          },
+          {
+            "a": "Müşteri",
+            "b": "Tek ekran",
+            "c": "Net"
+          }
+        ],
+        "voice": "Siparişler, stok, kargo. Hepsi *tek ekranda*. Siz de işinize bakın.",
+        "tone": "excited"
+      },
+      {
+        "type": "outro",
+        "title": "Strateji, tasarım ve teknoloji. Aynı takımda.",
+        "cap": "Projenizi konuşalım · arkesoft.com",
+        "voice": "Arkesoft. // Mağazanızı birlikte *kuralım*.",
+        "tone": "warm"
+      }
+    ],
+    "caption": "Sipariş bir panelde, stok Excel'de, kargo e-postada. Büyüyen bir e-ticaret işi için bu dağınıklık zamanla en pahalı kalem oluyor. Biz önce işinizi dinliyor, sonra mağaza, stok ve kargo akışını birbirine bağlıyoruz. Projenizi konuşalım: arkesoft.com",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#eticaret",
+      "#eticaretyazılımı",
+      "#kobi",
+      "#dijitaldönüşüm",
+      "#entegrasyon"
+    ],
+    "source": "",
+    "source_url": "",
+    "video_file": "reel.mp4",
+    "cover_file": "cover.jpg",
+    "duration": 49.1,
+    "timeline": [
+      {
+        "type": "title",
+        "start": 0.0,
+        "dur": 4.633
+      },
+      {
+        "type": "chaos",
+        "start": 4.633,
+        "dur": 11.391
+      },
+      {
+        "type": "counter",
+        "start": 16.024,
+        "dur": 8.705
+      },
+      {
+        "type": "orb",
+        "start": 24.729,
+        "dur": 10.52
+      },
+      {
+        "type": "dashboard",
+        "start": 35.248,
+        "dur": 7.996
+      },
+      {
+        "type": "outro",
+        "start": 43.244,
+        "dur": 5.917
+      }
+    ]
+  },
+  "history_note": "Promo reel: E-Ticaret hizmeti; sipariş, stok, kargo ve müşteri mesajlarının dağınık araçlarda kalması sorunu ve tek akışta bağlama yaklaşımı; foto post yok.",
+  "publish": true,
+  "published": {}
+}
