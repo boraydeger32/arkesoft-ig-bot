@@ -174,5 +174,13 @@
     "reel_kind": "promo",
     "reel_hook": "Siparişler geliyor… / ama _mağazanız_ *yetişemiyor.*",
     "note": "Promo reel: E-Ticaret hizmeti; sipariş, stok, kargo ve müşteri mesajlarının dağınık araçlarda kalması sorunu ve tek akışta bağlama yaklaşımı; foto post yok."
+  },
+  {
+    "date": "2026-11-18",
+    "post_headline": "Kod incelemesi artık *uyum* sağlıyor",
+    "post_source": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
+    "reel_kind": "none",
+    "reel_hook": "",
+    "note": "GitHub'ın 17 Kasım 2026'da duyurduğu Copilot code review Adaptive mod ve gizli anahtar tespiti (herkese açık önizleme) haberini foto post olarak paylaştım (inceleme emeğini riske göre dağıtma mesajı); reel yok."
   }
 ]

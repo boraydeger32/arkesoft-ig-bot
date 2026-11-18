@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-18",
+  "post": {
+    "enabled": true,
+    "headline": "Kod incelemesi artık *uyum* sağlıyor",
+    "subline": "GitHub Copilot, her pull request'i riskine göre farklı derinlikte inceleyecek.",
+    "slides": [
+      {
+        "title": "Kod incelemesi artık *uyum* sağlıyor",
+        "body": "GitHub Copilot code review'a 'Adaptive' mod geldi. Her pull request'in karmaşıklığına ve riskine bakıp Lite, Balanced ya da Max seviyesinde inceliyor."
+      },
+      {
+        "title": "Ne değişti?",
+        "body": "Seçilen seviye her incelemede görünüyor. Ayarı kullanıcı, depo, organizasyon veya kurumsal düzeyde varsayılan yapabilirsiniz. Üst sınırı yöneticinin belirlediği seviye çiziyor. Özellik herkese açık önizlemede."
+      },
+      {
+        "title": "Sızan şifreyi yakalıyor",
+        "body": "İnceleme yorumlarında açığa çıkmış gizli anahtarlar işaretleniyor. Bilinen 500'den fazla tür için kural tabanlı, biçimi belli olmayanlar için yapay zekâ destekli tespit var. Birleştirmeden önce temizleyebilirsiniz."
+      }
+    ],
+    "caption": "GitHub, Copilot code review için Adaptive modu duyurdu. Her pull request, karmaşıklığına ve riskine göre Lite, Balanced veya Max seviyesinde inceleniyor. Aynı güncellemede gizli anahtar tespiti ve inceleme sonuçlarını gösteren depo içgörüleri de var. Özellikler herkese açık önizlemede ve değişebilir. Ekibinizde inceleme süresi darboğazsa, önce küçük bir depoda deneyin.\nKaynak: GitHub Blog",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#github",
+      "#copilot",
+      "#kodinceleme",
+      "#yazılımgeliştirme",
+      "#yapayzeka"
+    ],
+    "source": "GitHub Blog",
+    "source_url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
+    "files": [
+      "post_1.png",
+      "post_2.png",
+      "post_3.png"
+    ]
+  },
+  "reel": {
+    "enabled": false,
+    "kind": "none",
+    "scenes": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "history_note": "GitHub'ın 17 Kasım 2026'da duyurduğu Copilot code review Adaptive mod ve gizli anahtar tespiti (herkese açık önizleme) haberini foto post olarak paylaştım (inceleme emeğini riske göre dağıtma mesajı); reel yok.",
+  "publish": true,
+  "published": {}
+}
