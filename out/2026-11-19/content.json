@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-19",
+  "post": {
+    "enabled": false,
+    "headline": "",
+    "subline": "",
+    "slides": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "reel": {
+    "enabled": true,
+    "kind": "news",
+    "scenes": [
+      {
+        "type": "title",
+        "mood": "calm",
+        "lines": [
+          "Yapay zekâ yazdı.",
+          "_Peki_ *doğru mu?*"
+        ],
+        "voice": "Yapay zekâ kodu yazdı. // Peki *doğru* mu yazdı?",
+        "tone": "urgent"
+      },
+      {
+        "type": "headline",
+        "cap": "GÜNDEM",
+        "title": "Copilot Evals herkese açık önizlemede",
+        "lines": [
+          "Yapay zekâ davranışını tekrarlanabilir testlerle ölçen yeni araç."
+        ],
+        "source": "GitHub Changelog · 17 Kasım 2026",
+        "voice": "GitHub, Copilot Evals'ı herkese açık önizlemeye aldı. Yapay zekâ davranışı için *tekrarlanabilir* test.",
+        "tone": "confident"
+      },
+      {
+        "type": "list",
+        "title": "Kısaca üç şey",
+        "items": [
+          {
+            "a": "Ne oldu?",
+            "b": "Beceri, özel ajan ve araçlar için test yazılıyor"
+          },
+          {
+            "a": "Neden önemli?",
+            "b": "Değişiklik öncesi ve sonrası karşılaştırılıyor"
+          },
+          {
+            "a": "Sizin için?",
+            "b": "Yapay zekâ işi 'sanki iyi' olmaktan çıkıyor"
+          }
+        ],
+        "voice": "Testler yazıyorsunuz. Her çalıştırmayı onaylıyorsunuz. Değişiklikten önce ve sonra... sonucu *karşılaştırıyorsunuz*.",
+        "tone": "calm"
+      },
+      {
+        "type": "orb",
+        "lines": [
+          "Yapay zekâ da",
+          "*ölçülmeli.*"
+        ],
+        "voice": "Bizim görüşümüz net. Yapay zekâ da *ölçülmeli*. Hissle değil, testle.",
+        "tone": "warm"
+      },
+      {
+        "type": "outro",
+        "title": "Strateji, tasarım ve teknoloji. Aynı takımda.",
+        "cap": "Projenizi konuşalım · arkesoft.com",
+        "voice": "Arkesoft. // Projenizi *konuşalım*.",
+        "tone": "warm"
+      }
+    ],
+    "caption": "GitHub, Copilot Evals'ı 17 Kasım 2026'da herkese açık önizlemeye aldı. Beceriler, özel ajanlar ve MCP araçları için tekrarlanabilir testler yazıp değişiklik öncesi ve sonrasını karşılaştırabiliyorsunuz. Bizce yapay zekâ destekli işler de, diğer yazılım gibi, ölçülerek ilerlemeli.\nKaynak: GitHub Changelog",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#yapayzeka",
+      "#githubcopilot",
+      "#geliştirici",
+      "#teknoloji",
+      "#yazılımgeliştirme"
+    ],
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview",
+    "video_file": "reel.mp4",
+    "cover_file": "cover.jpg",
+    "duration": 40.8,
+    "timeline": [
+      {
+        "type": "title",
+        "start": 0.0,
+        "dur": 5.798
+      },
+      {
+        "type": "headline",
+        "start": 5.798,
+        "dur": 9.017
+      },
+      {
+        "type": "list",
+        "start": 14.816,
+        "dur": 12.032
+      },
+      {
+        "type": "orb",
+        "start": 26.848,
+        "dur": 8.529
+      },
+      {
+        "type": "outro",
+        "start": 35.377,
+        "dur": 5.44
+      }
+    ]
+  },
+  "history_note": "GitHub'ın 17 Kasım 2026'da herkese açık önizlemeye aldığı Copilot Evals haberini news reeli olarak paylaştım (yapay zekâ işini testle ölçme mesajı); foto post yok.",
+  "publish": true,
+  "published": {}
+}
