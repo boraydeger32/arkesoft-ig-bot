@@ -190,5 +190,13 @@
     "reel_kind": "news",
     "reel_hook": "Yapay zekâ yazdı. / _Peki_ *doğru mu?*",
     "note": "GitHub'ın 17 Kasım 2026'da herkese açık önizlemeye aldığı Copilot Evals haberini news reeli olarak paylaştım (yapay zekâ işini testle ölçme mesajı); foto post yok."
+  },
+  {
+    "date": "2026-11-20",
+    "post_headline": "Copilot'a sekiz yeni *servis* bağlandı",
+    "post_source": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
+    "reel_kind": "none",
+    "reel_hook": "",
+    "note": "GitHub'ın 18 Kasım 2026'da duyurduğu, Box, Buildkite, Calendly, ClickUp, Mixpanel, Supabase, Webflow ve Wix'in Copilot bağlayıcılarına eklenmesi haberini foto post olarak paylaştım (araçları birbirine bağlama / entegrasyon mesajı); reel yok."
   }
 ]

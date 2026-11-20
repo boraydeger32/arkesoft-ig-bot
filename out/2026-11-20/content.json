@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-20",
+  "post": {
+    "enabled": true,
+    "headline": "Copilot'a sekiz yeni *servis* bağlandı",
+    "subline": "GitHub, Box, Supabase, Wix, Webflow gibi sekiz servisi Copilot bağlayıcılarına ekledi.",
+    "slides": [
+      {
+        "title": "Ne oldu?",
+        "body": "GitHub, 18 Kasım 2026'da sekiz servisi daha Copilot'a bağlanabilir hale getirdi: Box, Buildkite, Calendly, ClickUp, Mixpanel, Supabase, Webflow ve Wix. Bağlayıcılar herkese açık önizlemede ve GitHub doğrulamalı MCP sunucularıyla çalışıyor."
+      },
+      {
+        "title": "Neden önemli?",
+        "body": "Bu servisler, daha önce bağlanan 25'ten fazla servise (Slack, Figma, Sentry gibi) katılıyor. Yapay zekâ asistanı artık sadece kodu değil, işin geçtiği araçları da görebiliyor. Business ve Enterprise planlarda yöneticinin 'Editor preview features' politikasını açması gerekiyor."
+      },
+      {
+        "title": "Bize ne söylüyor?",
+        "body": "Araçların birbirine bağlanması yazılımda ana konu olmaya devam ediyor. KOBİ'ler için mesaj net: sistemleriniz ne kadar düzenli bağlıysa, otomasyon ve yapay zekâ o kadar işe yarar. Biz buna 'işler birbirine bağlansın' diyoruz."
+      }
+    ],
+    "caption": "GitHub, Copilot'a bağlanabilen servislere Box, Buildkite, Calendly, ClickUp, Mixpanel, Supabase, Webflow ve Wix'i ekledi. Özellik herkese açık önizlemede. Yapay zekâ araçları, işin yürüdüğü sistemlere bağlandıkça daha faydalı hale geliyor. Sizin araçlarınız birbirini görüyor mu?\nKaynak: GitHub Changelog",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#githubcopilot",
+      "#yapayzeka",
+      "#entegrasyon",
+      "#otomasyon",
+      "#geliştirici"
+    ],
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
+    "files": [
+      "post_1.png",
+      "post_2.png",
+      "post_3.png"
+    ]
+  },
+  "reel": {
+    "enabled": false,
+    "kind": "none",
+    "scenes": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "history_note": "GitHub'ın 18 Kasım 2026'da duyurduğu, Box, Buildkite, Calendly, ClickUp, Mixpanel, Supabase, Webflow ve Wix'in Copilot bağlayıcılarına eklenmesi haberini foto post olarak paylaştım (araçları birbirine bağlama / entegrasyon mesajı); reel yok.",
+  "publish": true,
+  "published": {}
+}
