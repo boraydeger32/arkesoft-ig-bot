@@ -198,5 +198,13 @@
     "reel_kind": "none",
     "reel_hook": "",
     "note": "GitHub'ın 18 Kasım 2026'da duyurduğu, Box, Buildkite, Calendly, ClickUp, Mixpanel, Supabase, Webflow ve Wix'in Copilot bağlayıcılarına eklenmesi haberini foto post olarak paylaştım (araçları birbirine bağlama / entegrasyon mesajı); reel yok."
+  },
+  {
+    "date": "2026-11-23",
+    "post_headline": "Güvenlik bildirimine *yetki* artık ayrı",
+    "post_source": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available",
+    "reel_kind": "none",
+    "reel_hook": "",
+    "note": "GitHub'ın 20 Kasım 2026'da genel kullanıma açtığı güvenlik danışmanlığı izinleri (özel depo rolleriyle en az yetki) haberini foto post olarak paylaştım; reel yok."
   }
 ]

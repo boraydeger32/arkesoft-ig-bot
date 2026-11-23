@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-23",
+  "post": {
+    "enabled": true,
+    "headline": "Güvenlik bildirimine *yetki* artık ayrı",
+    "subline": "GitHub, güvenlik danışmanlıklarına erişimi özel depo rolleriyle verilebilir hale getirdi.",
+    "slides": [
+      {
+        "title": "Ne oldu?",
+        "body": "GitHub, 20 Kasım 2026'da güvenlik danışmanlığı izinlerini genel kullanıma açtı. Kuruluş sahipleri, depo güvenlik danışmanlıklarına ve özel zafiyet bildirimlerine erişimi özel depo rolleriyle verebiliyor."
+      },
+      {
+        "title": "Neden önemli?",
+        "body": "Daha önce bu erişim için kişiyi depo yöneticisi yapmak gerekiyordu. Artık sadece ihtiyaç duyulan yetki verilebiliyor: gereğinden fazla değil."
+      },
+      {
+        "title": "Bize ne söylüyor?",
+        "body": "Güvenlik, 'herkese tam yetki' kolaylığıyla değil, en az yetkiyle başlar. Küçük ekipler için de aynı kural geçerli: kim neyi görüyor, düzenli bakın."
+      }
+    ],
+    "caption": "GitHub, güvenlik danışmanlığı izinlerini genel kullanıma açtı. Zafiyet bildirimlerine erişim için artık kimseyi depo yöneticisi yapmaya gerek yok. Ekibinizde kim neye erişiyor, en son ne zaman baktınız?\nKaynak: GitHub Changelog",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#github",
+      "#sibergüvenlik",
+      "#yazılımgeliştirme",
+      "#açıkkaynak",
+      "#kobi"
+    ],
+    "source": "GitHub Changelog",
+    "source_url": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available",
+    "files": [
+      "post_1.png",
+      "post_2.png",
+      "post_3.png"
+    ]
+  },
+  "reel": {
+    "enabled": false,
+    "kind": "none",
+    "scenes": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "history_note": "GitHub'ın 20 Kasım 2026'da genel kullanıma açtığı güvenlik danışmanlığı izinleri (özel depo rolleriyle en az yetki) haberini foto post olarak paylaştım; reel yok.",
+  "publish": true,
+  "published": {}
+}
