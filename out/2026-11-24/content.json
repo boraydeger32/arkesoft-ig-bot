@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-24",
+  "post": {
+    "enabled": false,
+    "headline": "",
+    "subline": "",
+    "slides": [],
+    "caption": "",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım"
+    ],
+    "source": "",
+    "source_url": ""
+  },
+  "reel": {
+    "enabled": true,
+    "kind": "promo",
+    "scenes": [
+      {
+        "type": "title",
+        "mood": "danger",
+        "lines": [
+          "Müşteriniz cebinde…",
+          "ama _siz_ *orada yoksunuz.*"
+        ],
+        "voice": "Müşteriniz her şeyi telefondan yapıyor. // Peki siz *orada* mısınız?",
+        "tone": "urgent"
+      },
+      {
+        "type": "chaos",
+        "items": [
+          {
+            "a": "Randevular",
+            "b": "telefon defterinde"
+          },
+          {
+            "a": "Siparişler",
+            "b": "WhatsApp'ta"
+          },
+          {
+            "a": "Kampanyalar",
+            "b": "hiçbir yerde"
+          },
+          {
+            "a": "Müşteriler",
+            "b": "Excel'de"
+          }
+        ],
+        "voice": "Randevular defterde. Siparişler WhatsApp'ta. Kampanyalar? ... Kimse görmüyor.",
+        "tone": "calm"
+      },
+      {
+        "type": "counter",
+        "title": "Telefona yetişemeyen her gün",
+        "seconds": 27772,
+        "cap": "Elle takip edilen işler",
+        "sub": "Her mesaj, her kayıt, tek tek.",
+        "voice": "Her gün aynı işi elle yapıyorsunuz. Zaman da *sessizce* akıp gidiyor.",
+        "tone": "confident"
+      },
+      {
+        "type": "orb",
+        "lines": [
+          "Her şey *tek uygulamada.*",
+          "Sizin markanızla."
+        ],
+        "voice": "Peki ya müşteriniz her şeyi tek yerden yapsa? Sizin markanızla. Sizin *uygulamanızla*.",
+        "tone": "warm"
+      },
+      {
+        "type": "dashboard",
+        "title": "Mobil uygulama paneli",
+        "cap": "Örnek yönetim paneli",
+        "items": [
+          {
+            "a": "Randevu",
+            "b": "Bugünkü kayıt",
+            "c": "örnek"
+          },
+          {
+            "a": "Sipariş",
+            "b": "Uygulamadan gelen",
+            "c": "örnek"
+          },
+          {
+            "a": "Bildirim",
+            "b": "Müşteriye ulaşan",
+            "c": "örnek"
+          },
+          {
+            "a": "Üye",
+            "b": "Yeni kayıt",
+            "c": "hedef"
+          }
+        ],
+        "voice": "Siz panelden yönetin. Müşteriniz cebinden *ulaşsın*. Önce sizi dinliyoruz, sonra uygulamayı birlikte kuruyoruz.",
+        "tone": "excited"
+      },
+      {
+        "type": "outro",
+        "title": "Strateji, tasarım ve teknoloji. Aynı takımda.",
+        "cap": "Projenizi konuşalım · arkesoft.com",
+        "voice": "Arkesoft. // Fikrinizi *konuşalım*.",
+        "tone": "warm"
+      }
+    ],
+    "caption": "Müşterileriniz günün çoğunu telefonda geçiriyor. Randevu, sipariş ve duyuruyu tek bir mobil uygulamada toplamak mümkün. Önce sizi dinliyor, sonra işinize uygun uygulamayı birlikte tasarlıyoruz. Projenizi konuşalım: arkesoft.com",
+    "hashtags": [
+      "#arkesoft",
+      "#yazılım",
+      "#webtasarım",
+      "#mobiluygulama",
+      "#kobi",
+      "#dijitaldönüşüm",
+      "#özelyazılım",
+      "#girişimci"
+    ],
+    "source": "",
+    "source_url": "",
+    "video_file": "reel.mp4",
+    "cover_file": "cover.jpg",
+    "duration": 49.3,
+    "timeline": [
+      {
+        "type": "title",
+        "start": 0.0,
+        "dur": 6.618
+      },
+      {
+        "type": "chaos",
+        "start": 6.618,
+        "dur": 10.583
+      },
+      {
+        "type": "counter",
+        "start": 17.201,
+        "dur": 7.029
+      },
+      {
+        "type": "orb",
+        "start": 24.23,
+        "dur": 9.753
+      },
+      {
+        "type": "dashboard",
+        "start": 33.983,
+        "dur": 9.954
+      },
+      {
+        "type": "outro",
+        "start": 43.937,
+        "dur": 5.415
+      }
+    ]
+  },
+  "history_note": "Promo reel: Mobil Uygulama hizmeti; müşterinin telefonda olup işletmenin orada olmaması sorunu ve tek uygulamada toplama yaklaşımı; foto post yok.",
+  "publish": true,
+  "published": {}
+}
